@@ -1,0 +1,12 @@
+main:Main[pa]
+adc:ADC_HW[pa]
+dtc:DTC_HW[a]
+adc_isr:ADC_ISR[a]
+
+main:adc.R_ADC_Start
+adc:dtc.INTAD
+adc:dtc.INTAD
+adc:dtc.INTAD
+
+dtc:adc_isr.INTAD
+adc_isr:main.All ADC conversions completed

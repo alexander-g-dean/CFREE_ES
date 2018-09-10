@@ -1,0 +1,2058 @@
+<NEC78K0RKx4>
+  <VAR>
+    <fCLK Name="fCLK" Value="32" Comment="4M" Trigger="fCLK">
+      <Effect>
+        <AD />
+        <SAU0 />
+        <IICA0 />
+        <TAU0 />
+      </Effect>
+    </fCLK>
+    <fIH Name="fIH" Value="32" Comment="32M" Trigger="fIH">
+      <Effect>
+        <LVD Forcible="" />
+      </Effect>
+    </fIH>
+    <fSUB Name="fSUB" Value="0" Comment="0K" Trigger="fSUB">
+      <Effect>
+        <TAU0 />
+        <PCLBUZ0 />
+        <PCLBUZ1 />
+      </Effect>
+    </fSUB>
+    <fIL Name="fIL" Value="15" Comment="15K" Trigger="fIL">
+      <Effect>
+        <WDT />
+        <TAU0 />
+      </Effect>
+    </fIL>
+    <fRTC Name="fRTC" Value="15" Comment="15k" Trigger="fRTC">
+      <Effect>
+        <RTC />
+        <IT />
+      </Effect>
+    </fRTC>
+    <fMAIN Name="fMAIN" Value="32" Comment="32M" Trigger="fMAIN">
+      <Effect>
+        <PCLBUZ0 />
+        <PCLBUZ1 />
+      </Effect>
+    </fMAIN>
+    <fINTTM02 Name="fINTTM02" Value="0" Comment="0M" Trigger="INTTM02">
+      <Effect>
+        <SAU0 />
+      </Effect>
+    </fINTTM02>
+    <VDD_MIN Name="VDD_MIN" Value="4" Comment="4.0V" Trigger="VDD">
+      <Effect>
+        <PCLBUZ0 />
+        <PCLBUZ1 />
+        <IICA0 />
+      </Effect>
+    </VDD_MIN>
+    <VDD_MAX Name="VDD_MAX" Value="5.5" Comment="5.5V" />
+    <VDD Name="VDD" Text="false" Comment="used" />
+    <IIC00 Name="IIC00" Text="false" Comment="unused" Trigger="IIC00">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC00>
+    <IIC01 Name="IIC01" Text="false" Comment="unused" Trigger="IIC01">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC01>
+    <IIC10 Name="IIC10" Text="false" Comment="unused" Trigger="IIC10">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC10>
+    <IIC11 Name="IIC11" Text="false" Comment="unused" Trigger="IIC11">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC11>
+    <IIC20 Name="IIC20" Text="false" Comment="unused" Trigger="IIC20">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC20>
+    <IIC21 Name="IIC21" Text="false" Comment="unused" Trigger="IIC21">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC21>
+    <IICA0 Name="IICA0" Text="false" Comment="unused" Trigger="IICA0">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IICA0>
+    <ProjectName Name="PrjName" Text="C_Examples" />
+    <ProjectPath Name="PrjPath" Text="C:\Users\Alex\Documents\Teaching\Book Writin'\RL78 Book\Chapters\C As She Is Spoke\C_Examples" />
+    <ProjectKind Name="PrjKind" Text="Project78K0R" />
+    <DeviceName Name="DeviceName" Fixed="" Text="78K0RKx4" />
+    <MCUName Name="MCUName" Text="NEC78K0RKE4" />
+    <ChipName Name="ChipName" Text="R5F100LE" />
+    <ChipID Name="ChipID" Text="DF1070_64" />
+    <MCUType Name="MCUType" Fixed="" Text="RL78" />
+    <Compiler Name="Compiler" Text="ICCRL78" />
+    <UseSecurityId Name="GI" Text="0" />
+    <SecurityId Name="GIValue" Text="FFFFFFFFFFFFFFFFFFFF" />
+    <LinkDirectiveFile Name="D0" Text="lk.dr" />
+    <OnChipDebugOptionBytes Name="GO" Text="1" />
+    <OnChipDebugOptionBytesValue Name="GOValue" Text="04" />
+    <StartAddressOfOnChipDebugOptionBytes Name="GOStart" Text="FE00" />
+    <SizeOfOnChipDebugOptionBytesArea Name="GOSizeValue" Text="512" />
+    <UserOptionBytes Name="GB" Text="1" />
+    <UserOptionBytesValue Name="GBValue" Text="FF73E8" />
+    <RAMStartAddress Chip="DF1054_20,DF1054_24,DF1054_25,DF1058_30,DF1058_32,DF1058_36,DF1062_40,DF1062_44,DF1062_48,DF1066_52,DF1070_64" Name="RAMStartAddress" Fixed="" Text="000FEF00" />
+    <RAMEndAddress Name="RAMEndAddress" Fixed="" Text="000FFEFF" />
+    <ROMEndAddress Chip="DF1054_20,DF1054_24,DF1054_25,DF1058_30,DF1058_32,DF1058_36,DF1062_40,DF1062_44,DF1062_48,DF1066_52,DF1070_64" Name="ROMEndAddress" Fixed="" Text="0000FFFF" />
+    <MirrorROM Chip="DF1054_20,DF1054_24,DF1054_25,DF1058_30,DF1058_32,DF1058_36,DF1062_40,DF1062_44,DF1062_48,DF1066_52,DF1070_64" Name="MirrorROM" Fixed="" Text="51.75" />
+    <CodePath Name="CodePath" Text=".\" />
+    <ReportType Name="ReportType" Text="Html" />
+    <GenerateType Name="GenerateType" Text="Merge" />
+    <PIORValue Name="PIORValue" Text="default" />
+    <PrjVersion Name="PrjVersion" Text="1.2.0.1" />
+    <UICultureNumberDecimalSeparator Name="UICultureNumberDecimalSeparator" Text="." />
+    <UICultureNumberGroupSeparator Name="UICultureNumberGroupSeparator" Text="," />
+  </VAR>
+  <DIR>
+    <PIN>
+      <System>
+        <X1 Port="P121" Point="-" />
+        <X2 Port="P122" Point="-" />
+        <EXCLK Port="P122" Point="I" />
+        <XT1 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" Port="P123" Point="-" />
+        <XT2 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" Port="P124" Point="-" />
+        <EXCLKS Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" Port="P124" Point="I" />
+        <TOOL0 Port="P40" Point="I/O" />
+      </System>
+      <PORT>
+        <Port0 Chip="NEC78K0RKE4" Pullup="true">
+          <P00 Name="P00/TI00" Nch="true" AltFunc="" Point="I/O" />
+          <P01 Name="P01/TO00" AltFunc="" TTL="true" Point="I/O" />
+          <P02 Name="P02/ANI17/SO10/TXD1" DIN="true" Nch="true" AltFunc="" Point="I/O" />
+          <P03 Nch="true" DIN="true" Name="P03/ANI16/SI10/RXD1/SDA10" TTL="true" AltFunc="" Point="I/O" />
+          <P04 Name="P04/_SCK10/SCL10" TTL="true" Nch="true" AltFunc="" Point="I/O" />
+          <P05 Name="P05/TI05/TO05" AltFunc="" Point="I/O" />
+          <P06 Name="P06/TI06/TO06" AltFunc="" Point="I/O" />
+        </Port0>
+        <Port1 Pullup="true">
+          <P10 Chip="NEC78K0RKE4,NEC78K0RKD4" Name="P10/_SCK00/SCL00" TTL="true" Nch="true" AltFunc="" Point="I/O" />
+          <P11 Chip="NEC78K0RKE4,NEC78K0RKD4" Name="P11/SI00/RXD0/TOOLRXD/SDA00" TTL="true" Nch="true" AltFunc="" Point="I/O" />
+          <P12 Name="P12/SO00/TXD0/TOOLTXD" Nch="true" AltFunc="" Point="I/O" />
+          <P13 Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4" TTL="true" Nch="true" Name="P13/TXD2/SO20" AltFunc="" Point="I/O" />
+          <P14 Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4" TTL="true" Nch="true" Name="P14/RXD2/SI20/SDA20" AltFunc="" Point="I/O" />
+          <P15 Chip="NEC78K0RKE4" TTL="true" Nch="true" Name="P15/_SCK20/SCL20" AltFunc="" Point="I/O" />
+          <P16 Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4,DF1051_24,DF1052_24,DF1053_24,DF1054_24,DF1051_25,DF1052_25,DF1053_25,DF1054_25" TTL="true" Name="P16/TI01/TO01/INTP5" AltFunc="" Point="I/O" />
+          <P17 Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4" TTL="true" Nch="true" Name="P17/TI02/TO02" AltFunc="" Point="I/O" />
+        </Port1>
+        <Port2 ADIN="true">
+          <P20 Name="P20/ANI0/AVREFP" AltFunc="" Point="I/O" />
+          <P21 Name="P21/ANI1/AVREFM" AltFunc="" Point="I/O" />
+          <P22 Name="P22/ANI2" AltFunc="" Point="I/O" />
+          <P23 Chip="NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKC4,NEC78K0RKB4" Name="P23/ANI3" AltFunc="" Point="I/O" />
+          <P24 Chip="NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKC4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" Name="P24/ANI4" AltFunc="" Point="I/O" />
+          <P25 Chip="NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKC4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" Name="P25/ANI5" AltFunc="" Point="I/O" />
+          <P26 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48" Name="P26/ANI6" AltFunc="" Point="I/O" />
+          <P27 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48" Name="P27/ANI7" AltFunc="" Point="I/O" />
+        </Port2>
+        <Port3 Pullup="true">
+          <P30 Chip="NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKC4" Name="P30/INTP3/RTC1HZ/_SCK11/SCL11" AltFunc="" Point="I/O" />
+          <P31 Chip="NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKC4,NEC78K0RKB4,DF1051_24,DF1052_24,DF1053_24,DF1054_24,DF1051_25,DF1052_25,DF1053_25,DF1054_25" Name="P31/TI03/TO03/INTP4" AltFunc="" Point="I/O" />
+        </Port3>
+        <Port4 Pullup="true">
+          <P40 Name="P40/TOOL0" AltFunc="" Point="I/O" />
+          <P41 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48" Name="P41/TI07/TO07" AltFunc="" Point="I/O" />
+          <P42 Chip="NEC78K0RKE4" Name="P42/TI04/TO04" AltFunc="" Point="I/O" />
+          <P43 Chip="NEC78K0RKE4" Name="P43" AltFunc="" Point="I/O" />
+        </Port4>
+        <Port5 Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4,DF1051_24,DF1052_24,DF1053_24,DF1054_24,DF1051_25,DF1052_25,DF1053_25,DF1054_25" Pullup="true">
+          <P50 Nch="true" Name="P50/INTP1/SI11/SDA11" AltFunc="" Point="I/O" />
+          <P51 Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4" Name="P51/INTP2/SO11" AltFunc="" Point="I/O" />
+          <P52 Chip="NEC78K0RKE4" Name="P52" AltFunc="" Point="I/O" />
+          <P53 Chip="NEC78K0RKE4" Name="P53" AltFunc="" Point="I/O" />
+          <P54 Chip="NEC78K0RKE4" Name="P54" AltFunc="" Point="I/O" />
+          <P55 Chip="NEC78K0RKE4" Name="P55" AltFunc="" Point="I/O" />
+        </Port5>
+        <Port6 Chip="NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKC4,NEC78K0RKB4,DF1051_24,DF1052_24,DF1053_24,DF1054_24,DF1051_25,DF1052_25,DF1053_25,DF1054_25">
+          <P60 Name="P60/SCLA0" AltFunc="" Point="I/O" />
+          <P61 Name="P61/SDAA0" AltFunc="" Point="I/O" />
+          <P62 Chip="NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKC4,DF1055_32,DF1056_32,DF1057_32,DF1058_32,DF1055_36,DF1056_36,DF1057_36,DF1058_36" Name="P62" AltFunc="" Point="I/O" />
+          <P63 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48" Name="P63" AltFunc="" Point="I/O" />
+        </Port6>
+        <Port7 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48" Pullup="true">
+          <P70 Name="P70/KR0/_SCK21/SCL21" AltFunc="" Point="I/O" />
+          <P71 Name="P71/KR1/SI21/SDA21" Nch="true" AltFunc="" Point="I/O" />
+          <P72 Name="P72/KR2/SO21" AltFunc="" Point="I/O" />
+          <P73 Name="P73/KR3/SO01" AltFunc="" Point="I/O" />
+          <P74 Name="P74/KR4/INTP8/SI01/SDA01" Nch="true" AltFunc="" Point="I/O" />
+          <P75 Name="P75/KR5/INTP9/_SCK01/SCL01" AltFunc="" Point="I/O" />
+          <P76 Chip="NEC78K0RKD4,NEC78K0RKE4" Name="P76/KR6/INTP10" AltFunc="" Point="I/O" />
+          <P77 Chip="NEC78K0RKD4,NEC78K0RKE4" Name="P77/KR7/INTP11" AltFunc="" Point="I/O" />
+        </Port7>
+        <Port12>
+          <P120 Chip="NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKC4,NEC78K0RKB4" DIN="true" Name="P120/ANI19" AltFunc="" Pullup="true" Point="I/O" />
+          <P121 Name="P121/X1" AltFunc="" Point="I" />
+          <P122 Name="P122/X2/EXCLK" AltFunc="" Point="I" />
+          <P123 Chip="NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKC4" Name="P123/XT1" AltFunc="" Point="I" />
+          <P124 Chip="NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKC4" Name="P124/XT2/EXCLKS" AltFunc="" Point="I" />
+        </Port12>
+        <Port13>
+          <P130 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48,DF1051_25,DF1052_25,DF1053_25,DF1054_25" Name="P130" AltFunc="" Point="O" />
+          <P137 Name="P137/INTP0" AltFunc="" Point="I" />
+        </Port13>
+        <Port14 Pullup="true">
+          <P140 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48" Name="P140/PCLBUZ0/INTP6" AltFunc="" Point="I/O" />
+          <P141 Chip="NEC78K0RKE4" Name="P141/PCLBUZ1/INTP7" AltFunc="" Point="I/O" />
+          <P146 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48" Name="P146" AltFunc="" Point="I/O" />
+          <P147 Name="P147/ANI18" DIN="true" AltFunc="" Point="I/O" />
+        </Port14>
+      </PORT>
+      <INT>
+        <INTP>
+          <INTP0 Port="P137" Point="I" />
+          <INTP1 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" Port="P50" Point="I" />
+          <INTP2 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" Port="P51" Point="I" />
+          <INTP3 Port="P30" Point="I" />
+          <INTP4 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" Port="P31" Point="I" />
+          <INTP5 Port="P16" Point="I" />
+          <INTP6 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" Port="P140" Point="I" />
+          <INTP7 Chip="NEC78K0RKE4" Port="P141" Point="I" />
+          <INTP8 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" Port="P74" Point="I" />
+          <INTP9 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" Port="P75" Point="I" />
+          <INTP10 Chip="NEC78K0RKE4" PIOR="default,timer" Port="P76" Point="I" />
+          <INTP11 Chip="NEC78K0RKE4" PIOR="default,timer" Port="P77" Point="I" />
+        </INTP>
+        <KEY>
+          <KR0 Chip="DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" Port="P70" Point="I" />
+          <KR1 Chip="DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" Port="P71" Point="I" />
+          <KR2 Chip="DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" Port="P72" Point="I" />
+          <KR3 Chip="DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" Port="P73" Point="I" />
+          <KR4 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" Port="P74" Point="I" />
+          <KR5 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" Port="P75" Point="I" />
+          <KR6 Chip="NEC78K0RKD4,NEC78K0RKE4" Port="P76" Point="I" />
+          <KR7 Chip="NEC78K0RKD4,NEC78K0RKE4" Port="P77" Point="I" />
+        </KEY>
+      </INT>
+      <AD>
+        <ANI0 Port="P20" Unconfilct="AVREFP" Point="I" />
+        <ANI1 Port="P21" Unconfilct="AVREFM" Point="I" />
+        <ANI2 Port="P22" Point="I" />
+        <ANI3 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" Port="P23" Point="I" />
+        <ANI4 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" Port="P24" Point="I" />
+        <ANI5 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" Port="P25" Point="I" />
+        <ANI6 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48" Port="P26" Point="I" />
+        <ANI7 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48" Port="P27" Point="I" />
+        <ANI16 Chip="NEC78K0RKD4,NEC78K0RKE4" Port="P03" Point="I" />
+        <ANI17 Chip="NEC78K0RKD4,NEC78K0RKE4" Port="P02" Point="I" />
+        <ANI18 Port="P147" Point="I" />
+        <ANI19 Chip="NEC78K0RKB4,NEC78K0RKC4, NEC78K0RKD4,NEC78K0RKE4" Port="P120" Point="I" />
+        <AVREFP Port="P20" Unconfilct="ANI0" Point="I" />
+        <AVREFM Port="P21" Unconfilct="ANI1" Point="I" />
+      </AD>
+      <Serial>
+        <SAU0>
+          <UART0>
+            <TXD0 PIOR="default,timer" Port="P12" RealName="TxD0" Point="O" />
+            <RXD0 PIOR="default,timer" Port="P11" RealName="RxD0" Point="I" />
+          </UART0>
+          <UART1>
+            <TXD1 Chip="NEC78K0RKD4,NEC78K0RKE4" Port="P02" RealName="TxD1" Point="O" />
+            <RXD1 Chip="NEC78K0RKD4,NEC78K0RKE4" Port="P03" RealName="RxD1" Point="I" />
+          </UART1>
+          <CSI00 PIOR="default,timer">
+            <SO00 Port="P12" Point="O" />
+            <SI00 Port="P11" Point="I" />
+            <SCK00 Port="P10" RealName="_SCK00" Point="I/O" />
+          </CSI00>
+          <CSI01 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48">
+            <SO01 Port="P73" Point="O" />
+            <SI01 Port="P74" Point="I" />
+            <SCK01 Port="P75" RealName="_SCK01" Point="I/O" />
+          </CSI01>
+          <CSI10 Chip="NEC78K0RKE4">
+            <SO10 Port="P02" Point="O" />
+            <SI10 Port="P03" Point="I" />
+            <SCK10 Port="P04" RealName="_SCK10" Point="I/O" />
+          </CSI10>
+          <CSI11>
+            <SO11 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1051_25,DF1052_25,DF1053_25,DF1054_25" Port="P51" Point="O" />
+            <SI11 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1051_24,DF1052_24,DF1053_24,DF1054_24,DF1051_25,DF1052_25,DF1053_25,DF1054_25" Port="P50" Point="I" />
+            <SCK11 Port="P30" RealName="_SCK11" Point="I/O" />
+          </CSI11>
+          <IIC00 PIOR="default,timer">
+            <SCL00 Port="P10" Point="O" CheckNch="true" />
+            <SDA00 Port="P11" Point="O" CheckNch="true" />
+          </IIC00>
+          <IIC01 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48">
+            <SCL01 Port="P75" Point="O" CheckNch="true" />
+            <SDA01 Port="P74" Point="O" CheckNch="true" />
+          </IIC01>
+          <IIC10 Chip="NEC78K0RKE4">
+            <SCL10 Port="P04" Point="O" CheckNch="true" />
+            <SDA10 Port="P03" Point="O" CheckNch="true" />
+          </IIC10>
+          <IIC11>
+            <SCL11 Port="P30" Point="O" CheckNch="true" />
+            <SDA11 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1051_24,DF1052_24,DF1053_24,DF1054_24,DF1051_25,DF1052_25,DF1053_25,DF1054_25" Port="P50" Point="O" CheckNch="true" />
+          </IIC11>
+        </SAU0>
+        <SAU1 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKF4,NEC78K0RKG4,NEC78K0RKH4">
+          <UART2 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKF4,NEC78K0RKG4,NEC78K0RKH4" PIOR="default,timer">
+            <TXD2 Port="P13" RealName="TxD2" Point="O" />
+            <RXD2 Port="P14" Point="I" />
+          </UART2>
+          <CSI20 PIOR="default,timer">
+            <SO20 Port="P13" Point="O" />
+            <SI20 Port="P14" Point="I" />
+            <SCK20 Port="P15" RealName="_SCK20" Point="I/O" />
+          </CSI20>
+          <CSI21 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36">
+            <SO21 Port="P72" Point="O" />
+            <SI21 Port="P71" Point="I" />
+            <SCK21 Port="P70" RealName="_SCK21" Point="I/O" />
+          </CSI21>
+          <IIC20 PIOR="default,timer">
+            <SCL20 Port="P15" Point="O" CheckNch="true" />
+            <SDA20 Port="P14" Point="O" CheckNch="true" />
+          </IIC20>
+          <IIC21 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36">
+            <SCL21 Port="P70" Point="O" CheckNch="true" />
+            <SDA21 Port="P71" Point="O" CheckNch="true" />
+          </IIC21>
+        </SAU1>
+        <IICA0>
+          <SCLA0 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" PIOR="default,timer" Port="P60" Point="I/O" />
+          <SDAA0 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" PIOR="default,timer" Port="P61" Point="I/O" />
+        </IICA0>
+      </Serial>
+      <TAU>
+        <TAU0 PIOR="default,serial">
+          <Channel0>
+            <TI00 Port="P00" Point="I" />
+            <TO00 Port="P01" Point="O" />
+          </Channel0>
+          <Channel1>
+            <TI01 Port="P16" Point="I" />
+            <TO01 Port="P16" Point="O" />
+          </Channel1>
+          <Channel2>
+            <TI02 Port="P17" Point="I" />
+            <TO02 Port="P17" Point="O" />
+          </Channel2>
+          <Channel3 Chip="DF1051_24,DF1051_25,DF1052_24,DF1052_25,DF1053_24,DF1053_25,DF1054_24,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4">
+            <TI03 Port="P31" Point="I" />
+            <TO03 Port="P31" Point="O" />
+          </Channel3>
+          <Channel4 Chip="NEC78K0RKE4">
+            <TI04 Port="P42" Point="I" />
+            <TO04 Port="P42" Point="O" />
+          </Channel4>
+          <Channel5 Chip="NEC78K0RKE4">
+            <TI05 Port="P05" Point="I" />
+            <TO05 Port="P05" Point="O" />
+          </Channel5>
+          <Channel6 Chip="NEC78K0RKE4">
+            <TI06 Port="P06" Point="I" />
+            <TO06 Port="P06" Point="O" />
+          </Channel6>
+          <Channel7 Chip="NEC78K0RKE4,NEC78K0RKD4,DF1059_48,DF1059_44,DF1060_44,DF1060_48,DF1061_48,DF1061_44,DF1062_44,DF1062_48">
+            <TI07 Port="P41" Point="I" />
+            <TO07 Port="P41" Point="O" />
+          </Channel7>
+        </TAU0>
+      </TAU>
+      <RTC>
+        <RTC1HZ Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" Port="P30" Point="O" />
+      </RTC>
+      <PCLBUZ>
+        <PCLBUZ0>
+          <PCLBUZ0 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" Port="P140" Point="O" />
+        </PCLBUZ0>
+        <PCLBUZ1>
+          <PCLBUZ1 Chip="NEC78K0RKE4" Port="P141" Point="O" />
+        </PCLBUZ1>
+      </PCLBUZ>
+      <Others>
+        <VDD AltFunc="VDD" Point="-" />
+        <VSS AltFunc="VSS" Point="-" />
+        <EVDD0 Chip="NEC78K0RKE4" AltFunc="EVDD0" Point="-" />
+        <EVSS0 Chip="NEC78K0RKE4" AltFunc="EVSS0" Point="-" />
+        <REGC AltFunc="REGC" Point="-" />
+        <_RESET AltFunc="_RESET" RealName="_RESET" Point="I" />
+      </Others>
+    </PIN>
+    <INT>
+      <INT>
+        <INTP>
+          <INTP0 InUse="0" ISR="MD_INTP0" />
+          <INTP1 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" InUse="0" ISR="MD_INTP1" />
+          <INTP2 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" InUse="0" ISR="MD_INTP2" />
+          <INTP3 InUse="0" ISR="MD_INTP3" />
+          <INTP4 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" InUse="0" ISR="MD_INTP4" />
+          <INTP5 InUse="0" ISR="MD_INTP5" />
+          <INTP6 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" InUse="0" ISR="MD_INTP6" />
+          <INTP7 Chip="NEC78K0RKE4" InUse="0" ISR="MD_INTP7" />
+          <INTP8 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" InUse="0" ISR="MD_INTP8" />
+          <INTP9 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" InUse="0" ISR="MD_INTP9" />
+          <INTP10 Chip="NEC78K0RKE4" InUse="0" ISR="MD_INTP10" />
+          <INTP11 Chip="NEC78K0RKE4" InUse="0" ISR="MD_INTP11" />
+        </INTP>
+        <KEY>
+          <INTKR Chip="DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" InUse="0" ISR="MD_INTKR" />
+        </KEY>
+      </INT>
+      <Serial>
+        <SAU0>
+          <INTCSI00 InUse="0" ISR="MD_INTCSI00" />
+          <INTCSI01 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48" InUse="0" ISR="MD_INTCSI01" />
+          <INTCSI10 Chip="NEC78K0RKE4" InUse="0" ISR="MD_INTCSI10" />
+          <INTCSI11 InUse="0" ISR="MD_INTCSI11" />
+          <INTST0 InUse="0" ISR="MD_INTST0" />
+          <INTSRE0 InUse="0" ISR="MD_INTSRE0" />
+          <INTSR0 InUse="0" ISR="MD_INTSR0" />
+          <INTCSI10 InUse="0" ISR="MD_INTCSI10" />
+          <INTST1 InUse="0" ISR="MD_INTST1" />
+          <INTSRE1 InUse="0" ISR="MD_INTSRE1" />
+          <INTSR1 InUse="0" ISR="MD_INTSR1" />
+          <INTIIC00 InUse="0" ISR="MD_INTIIC00" />
+          <INTIIC01 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48" InUse="0" ISR="MD_INTIIC01" />
+          <INTIIC10 Chip="NEC78K0RKE4" InUse="0" ISR="MD_INTIIC10" />
+          <INTIIC11 InUse="0" ISR="MD_INTIIC11" />
+        </SAU0>
+        <SAU1 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKF4,NEC78K0RKG4,NEC78K0RKH4">
+          <INTCSI20 InUse="0" ISR="MD_INTCSI20" />
+          <INTCSI21 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" InUse="0" ISR="MD_INTCSI21" />
+          <INTST2 InUse="0" ISR="MD_INTST2" />
+          <INTSRE2 InUse="0" ISR="MD_INTSRE2" />
+          <INTSR2 InUse="0" ISR="MD_INTSR2" />
+          <INTIIC20 InUse="0" ISR="MD_INTIIC20" />
+          <INTIIC21 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" InUse="0" ISR="MD_INTIIC21" />
+        </SAU1>
+        <IICA0>
+          <INTIICA0 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" InUse="0" ISR="MD_INTIICA0" />
+        </IICA0>
+      </Serial>
+      <AD>
+        <INTAD InUse="0" ISR="MD_INTAD" IsDMATrigger="true" />
+      </AD>
+      <TAU>
+        <TAU0>
+          <Channel0>
+            <INTTM00 InUse="0" ISR="MD_INTTM00" />
+          </Channel0>
+          <Channel1>
+            <INTTM01 InUse="0" ISR="MD_INTTM01" />
+            <INTTM01H InUse="0" ISR="MD_INTTM01H" />
+          </Channel1>
+          <Channel2>
+            <INTTM02 InUse="0" ISR="MD_INTTM02" />
+          </Channel2>
+          <Channel3>
+            <INTTM03 InUse="0" ISR="MD_INTTM03" />
+            <INTTM03H InUse="0" ISR="MD_INTTM03H" />
+          </Channel3>
+          <Channel4>
+            <INTTM04 InUse="0" ISR="MD_INTTM04" />
+          </Channel4>
+          <Channel5>
+            <INTTM05 InUse="0" ISR="MD_INTTM05" />
+          </Channel5>
+          <Channel6>
+            <INTTM06 InUse="0" ISR="MD_INTTM06" />
+          </Channel6>
+          <Channel7>
+            <INTTM07 InUse="0" ISR="MD_INTTM07" />
+          </Channel7>
+        </TAU0>
+      </TAU>
+      <RTC Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36">
+        <INTRTC InUse="0" ISR="MD_INTRTC" />
+      </RTC>
+      <IT>
+        <INTIT InUse="0" ISR="MD_INTIT" />
+      </IT>
+      <DMA>
+        <DMA0>
+          <INTDMA0 InUse="0" ISR="MD_INTDMA0" />
+        </DMA0>
+        <DMA1>
+          <INTDMA1 InUse="0" ISR="MD_INTDMA1" />
+        </DMA1>
+      </DMA>
+      <WDT>
+        <INTWDTI InUse="0" ISR="MD_INTWDTI" IsDMATrigger="true" />
+      </WDT>
+      <LVD>
+        <INTLVI InUse="0" ISR="MD_INTLVI" IsDMATrigger="true" />
+      </LVD>
+    </INT>
+    <FUNC>
+      <Common>
+        <CG_main.c UserName="CG_main.c" LibName="main.c" IsLibrary="false" InUse="2">
+          <Type main="void main(void)" />
+          <main UserName="main" LibName="main" FixedName="" InUse="2" ForRTOS="false" Init="" />
+        </CG_main.c>
+        <CG_systeminit.c UserName="CG_systeminit.c" LibName="systeminit.c" InUse="1">
+          <Type systeminit="void systeminit(void)" hdwinit="void hdwinit(void)" inti_handler="void inti_handler(void)" idle_handler="void idle_handler(void)" />
+          <systeminit UserName="systeminit" LibName="systeminit" InUse="1" Init="" />
+          <hdwinit UserName="hdwinit" LibName="hdwinit" FixedName="" InUse="1" Init="" />
+        </CG_systeminit.c>
+        <CG_macrodriver.h UserName="CG_macrodriver.h" LibName="macrodriver.h" InUse="1" />
+        <CG_userdefine.h UserName="CG_userdefine.h" LibName="userdefine.h" InUse="1" />
+        <CG_lk.dr UserName="CG_lk.dr" LibName="lk.dr" IsLibrary="false" Compiler="CARL78" InUse="1" />
+        <CG_mdlnk.xcl UserName="CG_mdlnk.xcl" LibName="md_lnk.xcl" Visible="false" IsLibrary="false" Compiler="ICCRL78" InUse="1" />
+        <CG_mdt.eww UserName="CG_mdt.eww" LibName="mdt.eww" Visible="false" IsLibrary="false" Compiler="ICCRL78" ForAP="true" InUse="1" />
+        <CG_mdt.ewp UserName="CG_mdt.ewp" LibName="rl78mdt.ewp" Visible="false" IsLibrary="false" Compiler="ICCRL78" ForAP="true" InUse="1" />
+        <CG_mdt.txt UserName="CG_mdt.txt" LibName="mdt.txt" Visible="false" IsLibrary="false" Compiler="CARL78" ForAP="true" InUse="1" />
+      </Common>
+      <System>
+        <CG_system.c UserName="CG_system.c" LibName=".c" InUse="1">
+          <Type CLOCK_Init="void CLOCK_Init(void)" CG_SelectPowerSaveMode="MD_STATUS CG_SelectPowerSaveMode(enum PSLevel level)" CG_ChangeClockMode="MD_STATUS CG_ChangeClockMode(enum ClockMode mode)" CG_SelectStabTime="MD_STATUS CG_SelectStabTime(enum StabTime waittime)" CG_CRCOn="void CG_CRCOn(void)" CG_CRCOff="void CG_CRCOff(void)" CG_SelectGuardFunction="void CG_SelectGuardFunction(UCHAR regvalue)" />
+          <CLOCK_Init UserName="CLOCK_Init" LibName="CLOCK_Init" InUse="1" Init="1" />
+          <CG_SelectPowerSaveMode UserName="CG_SelectPowerSaveMode" LibName="CG_SelectPowerSaveMode" InUse="0" />
+          <CG_ChangeClockMode UserName="CG_ChangeClockMode" LibName="CG_ChangeClockMode" InUse="0" />
+          <CG_SelectStabTime UserName="CG_SelectStabTime" LibName="CG_SelectStabTime" InUse="0" />
+          <CG_CRCOn UserName="CG_CRCOn" LibName="CG_CRCOn" InUse="0" />
+          <CG_CRCOff UserName="CG_CRCOff" LibName="CG_CRCOff" InUse="0" />
+          <CG_SelectGuardFunction UserName="CG_SelectGuardFunction" LibName="CG_SelectGuardFunction" InUse="0" />
+        </CG_system.c>
+        <CG_system_user.c UserName="CG_system_user.c" LibName="_user.c" InUse="1">
+          <Type CLOCK_UserInit="void CLOCK_UserInit(void)" CG_ReadResetSource="void CG_ReadResetSource(void)" />
+          <CLOCK_UserInit UserName="CLOCK_UserInit" LibName="CLOCK_UserInit" InUse="0" />
+          <CG_ReadResetSource UserName="CG_ReadResetSource" LibName="CG_ReadResetSource" Init="0" InUse="1" />
+        </CG_system_user.c>
+        <CG_system.h UserName="CG_system.h" LibName=".h" InUse="1" />
+      </System>
+      <PORT>
+        <CG_port.c UserName="CG_port.c" LibName=".c" InUse="0">
+          <Type PORT_Init="void PORT_Init(void)" PORT_ChangePmnInput3="void PORT_ChangePmnInput3(BOOL enablepu, BOOL enablettl)" PORT_ChangePmnInput2="void PORT_ChangePmnInput2(BOOL enablepu)" PORT_ChangePmnInput1="void PORT_ChangePmnInput1(BOOL enablettl)" PORT_ChangePmnInput0="void PORT_ChangePmnInput0(void)" PORT_ChangePmnOutput1="void PORT_ChangePmnOutput1(BOOL enablench, BOOL initialvalue)" PORT_ChangePmnOutput0="void PORT_ChangePmnOutput0(BOOL initialvalue)" />
+          <PORT_Init UserName="PORT_Init" LibName="PORT_Init" InUse="0" Init="0" />
+          <Port0>
+            <P00>
+              <PORT_ChangeP00Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP00Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P00>
+            <P01>
+              <PORT_ChangeP01Input LibName="PORT_ChangePmnInput3" InUse="0" Visible="false" />
+              <PORT_ChangeP01Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P01>
+            <P02>
+              <PORT_ChangeP02Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP02Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P02>
+            <P03>
+              <PORT_ChangeP03Input LibName="PORT_ChangePmnInput3" InUse="0" Visible="false" />
+              <PORT_ChangeP03Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P03>
+            <P04>
+              <PORT_ChangeP04Input LibName="PORT_ChangePmnInput3" InUse="0" Visible="false" />
+              <PORT_ChangeP04Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P04>
+            <P05>
+              <PORT_ChangeP05Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP05Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P05>
+            <P06>
+              <PORT_ChangeP06Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP06Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P06>
+          </Port0>
+          <Port1>
+            <P10>
+              <PORT_ChangeP10Input LibName="PORT_ChangePmnInput3" InUse="0" Visible="false" />
+              <PORT_ChangeP10Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P10>
+            <P11>
+              <PORT_ChangeP11Input LibName="PORT_ChangePmnInput3" InUse="0" Visible="false" />
+              <PORT_ChangeP11Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P11>
+            <P12>
+              <PORT_ChangeP12Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP12Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P12>
+            <P13>
+              <PORT_ChangeP13Input LibName="PORT_ChangePmnInput3" InUse="0" Visible="false" />
+              <PORT_ChangeP13Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P13>
+            <P14>
+              <PORT_ChangeP14Input LibName="PORT_ChangePmnInput3" InUse="0" Visible="false" />
+              <PORT_ChangeP14Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P14>
+            <P15>
+              <PORT_ChangeP15Input LibName="PORT_ChangePmnInput3" InUse="0" Visible="false" />
+              <PORT_ChangeP15Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P15>
+            <P16>
+              <PORT_ChangeP16Input LibName="PORT_ChangePmnInput3" InUse="0" Visible="false" />
+              <PORT_ChangeP16Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P16>
+            <P17>
+              <PORT_ChangeP17Input LibName="PORT_ChangePmnInput3" InUse="0" Visible="false" />
+              <PORT_ChangeP17Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P17>
+          </Port1>
+          <Port2>
+            <P20>
+              <PORT_ChangeP20Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP20Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P20>
+            <P21>
+              <PORT_ChangeP21Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP21Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P21>
+            <P22>
+              <PORT_ChangeP22Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP22Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P22>
+            <P23>
+              <PORT_ChangeP23Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP23Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P23>
+            <P24>
+              <PORT_ChangeP24Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP24Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P24>
+            <P25>
+              <PORT_ChangeP25Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP25Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P25>
+            <P26>
+              <PORT_ChangeP26Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP26Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P26>
+            <P27>
+              <PORT_ChangeP27Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP27Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P27>
+          </Port2>
+          <Port3>
+            <P30>
+              <PORT_ChangeP30Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP30Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P30>
+            <P31>
+              <PORT_ChangeP31Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP31Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P31>
+          </Port3>
+          <Port4>
+            <P40>
+              <PORT_ChangeP40Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP40Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P40>
+            <P41>
+              <PORT_ChangeP41Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP41Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P41>
+            <P42>
+              <PORT_ChangeP42Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP42Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P42>
+            <P43>
+              <PORT_ChangeP43Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP43Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P43>
+          </Port4>
+          <Port5>
+            <P50>
+              <PORT_ChangeP50Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP50Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P50>
+            <P51>
+              <PORT_ChangeP51Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP51Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P51>
+            <P52>
+              <PORT_ChangeP52Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP52Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P52>
+            <P53>
+              <PORT_ChangeP53Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP53Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P53>
+            <P54>
+              <PORT_ChangeP54Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP54Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P54>
+            <P55>
+              <PORT_ChangeP55Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP55Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P55>
+          </Port5>
+          <Port6>
+            <P60>
+              <PORT_ChangeP60Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP60Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P60>
+            <P61>
+              <PORT_ChangeP61Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP61Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P61>
+            <P62>
+              <PORT_ChangeP62Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP62Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P62>
+            <P63>
+              <PORT_ChangeP63Input LibName="PORT_ChangePmnInput0" InUse="0" Visible="false" />
+              <PORT_ChangeP63Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P63>
+          </Port6>
+          <Port7>
+            <P70>
+              <PORT_ChangeP70Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP70Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P70>
+            <P71>
+              <PORT_ChangeP71Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP71Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P71>
+            <P72>
+              <PORT_ChangeP72Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP72Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P72>
+            <P73>
+              <PORT_ChangeP73Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP73Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P73>
+            <P74>
+              <PORT_ChangeP74Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP74Output LibName="PORT_ChangePmnOutput1" InUse="0" Visible="false" />
+            </P74>
+            <P75>
+              <PORT_ChangeP75Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP75Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P75>
+            <P76>
+              <PORT_ChangeP76Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP76Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P76>
+            <P77>
+              <PORT_ChangeP77Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP77Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P77>
+          </Port7>
+          <Port12>
+            <P120>
+              <PORT_ChangeP120Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP120Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P120>
+            <P121 />
+            <P122 />
+            <P123 />
+            <P124 />
+          </Port12>
+          <Port13>
+            <P130>
+              <PORT_ChangeP130Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P130>
+            <P137 />
+          </Port13>
+          <Port14>
+            <P140>
+              <PORT_ChangeP140Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP140Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P140>
+            <P141>
+              <PORT_ChangeP141Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP141Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P141>
+            <P146>
+              <PORT_ChangeP146Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP146Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P146>
+            <P147>
+              <PORT_ChangeP147Input LibName="PORT_ChangePmnInput2" InUse="0" Visible="false" />
+              <PORT_ChangeP147Output LibName="PORT_ChangePmnOutput0" InUse="0" Visible="false" />
+            </P147>
+          </Port14>
+        </CG_port.c>
+        <CG_port_user.c UserName="CG_port_user.c" LibName="_user.c" InUse="0">
+          <Type PORT_UserInit="void PORT_UserInit(void)" />
+          <PORT_UserInit UserName="PORT_UserInit" LibName="PORT_UserInit" InUse="0" />
+        </CG_port_user.c>
+        <CG_port.h UserName="CG_port.h" LibName=".h" InUse="0" />
+      </PORT>
+      <INT>
+        <CG_int.c UserName="CG_int.c" LibName=".c" InUse="">
+          <Type INTP_Init="void INTP_Init(void)" INTPn_Enable="void INTPn_Enable(void)" INTPn_Disable="void INTPn_Disable(void)" KEY_Init="void KEY_Init(void)" KEY_Enable="void KEY_Enable(void)" KEY_Disable="void KEY_Disable(void)" INT_MaskableInterruptEnable="MD_STATUS INT_MaskableInterruptEnable(enum MaskableSource name, BOOL enableflag)" />
+          <INTP>
+            <INTP_Init UserName="INTP_Init" LibName="INTP_Init" InUse="" Init="2" />
+            <INT_MaskableInterruptEnable UserName="INT_MaskableInterruptEnable" LibName="INT_MaskableInterruptEnable" InUse="" />
+            <INTP0>
+              <INTP0_Enable UserName="INTP0_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP0_Disable UserName="INTP0_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP0>
+            <INTP1 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4">
+              <INTP1_Enable UserName="INTP1_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP1_Disable UserName="INTP1_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP1>
+            <INTP2 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4">
+              <INTP2_Enable UserName="INTP2_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP2_Disable UserName="INTP2_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP2>
+            <INTP3>
+              <INTP3_Enable UserName="INTP3_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP3_Disable UserName="INTP3_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP3>
+            <INTP4 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4">
+              <INTP4_Enable UserName="INTP4_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP4_Disable UserName="INTP4_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP4>
+            <INTP5>
+              <INTP5_Enable UserName="INTP5_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP5_Disable UserName="INTP5_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP5>
+            <INTP6 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4">
+              <INTP6_Enable UserName="INTP6_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP6_Disable UserName="INTP6_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP6>
+            <INTP7 Chip="NEC78K0RKE4">
+              <INTP7_Enable UserName="INTP7_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP7_Disable UserName="INTP7_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP7>
+            <INTP8 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4">
+              <INTP8_Enable UserName="INTP8_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP8_Disable UserName="INTP8_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP8>
+            <INTP9 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4">
+              <INTP9_Enable UserName="INTP9_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP9_Disable UserName="INTP9_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP9>
+            <INTP10 Chip="NEC78K0RKE4">
+              <INTP10_Enable UserName="INTP10_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP10_Disable UserName="INTP10_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP10>
+            <INTP11 Chip="NEC78K0RKE4">
+              <INTP11_Enable UserName="INTP11_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP11_Disable UserName="INTP11_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP11>
+          </INTP>
+          <KEY Chip="DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4">
+            <KEY_Init UserName="KEY_Init" LibName="KEY_Init" InUse="" Init="2" />
+            <KEY_Enable UserName="KEY_Enable" LibName="KEY_Enable" InUse="" />
+            <KEY_Disable UserName="KEY_Disable" LibName="KEY_Disable" InUse="" />
+          </KEY>
+        </CG_int.c>
+        <CG_int_user.c UserName="CG_int_user.c" LibName="_user.c" InUse="">
+          <Type INTP_UserInit="void INTP_UserInit(void)" KEY_UserInit="void KEY_UserInit(void)" MD_INTP0="__interrupt void MD_INTP0(void)" MD_INTP1="__interrupt void MD_INTP1(void)" MD_INTP2="__interrupt void MD_INTP2(void)" MD_INTP3="__interrupt void MD_INTP3(void)" MD_INTP4="__interrupt void MD_INTP4(void)" MD_INTP5="__interrupt void MD_INTP5(void)" MD_INTP6="__interrupt void MD_INTP6(void)" MD_INTP7="__interrupt void MD_INTP7(void)" MD_INTP8="__interrupt void MD_INTP8(void)" MD_INTP9="__interrupt void MD_INTP9(void)" MD_INTP10="__interrupt void MD_INTP10(void)" MD_INTP11="__interrupt void MD_INTP11(void)" MD_INTKR="__interrupt void MD_INTKR(void)" />
+          <INTP>
+            <INTP_UserInit UserName="INTP_UserInit" LibName="INTP_UserInit" InUse="" />
+            <MD_INTP0 UserName="MD_INTP0" LibName="MD_INTP0" INTHandle="" InUse="" />
+            <MD_INTP1 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" UserName="MD_INTP1" LibName="MD_INTP1" INTHandle="" InUse="" />
+            <MD_INTP2 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" UserName="MD_INTP2" LibName="MD_INTP2" INTHandle="" InUse="" />
+            <MD_INTP3 UserName="MD_INTP3" LibName="MD_INTP3" INTHandle="" InUse="" />
+            <MD_INTP4 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" UserName="MD_INTP4" INTHandle="" LibName="MD_INTP4" InUse="" />
+            <MD_INTP5 UserName="MD_INTP5" LibName="MD_INTP5" INTHandle="" InUse="" />
+            <MD_INTP6 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" UserName="MD_INTP6" LibName="MD_INTP6" INTHandle="" InUse="" />
+            <MD_INTP7 Chip="NEC78K0RKE4" UserName="MD_INTP7" LibName="MD_INTP7" INTHandle="" InUse="" />
+            <MD_INTP8 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" UserName="MD_INTP8" LibName="MD_INTP8" INTHandle="" InUse="" />
+            <MD_INTP9 Chip="DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" UserName="MD_INTP9" LibName="MD_INTP9" INTHandle="" InUse="" />
+            <MD_INTP10 Chip="NEC78K0RKE4" UserName="MD_INTP10" LibName="MD_INTP10" INTHandle="" InUse="" />
+            <MD_INTP11 Chip="NEC78K0RKE4" UserName="MD_INTP11" LibName="MD_INTP11" INTHandle="" InUse="" />
+          </INTP>
+          <KEY>
+            <KEY_UserInit Chip="DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" UserName="KEY_UserInit" LibName="KEY_UserInit" InUse="" />
+            <MD_INTKR Chip="DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" UserName="MD_INTKR" LibName="MD_INTKR" INTHandle="" InUse="" />
+          </KEY>
+        </CG_int_user.c>
+        <CG_int.h UserName="CG_int.h" LibName=".h" InUse="" />
+      </INT>
+      <Serial>
+        <CG_serial.c UserName="CG_serial.c" LibName=".c" InUse="0">
+          <Type SAUn_Init="void SAUn_Init(void)" SAUn_PowerOff="void SAUn_PowerOff(void)" SAUn_SnoozeOn="void SAUn_SnoozeOn(void)" SAUn_SnoozeOff="void SAUn_SnoozeOff(void)" UARTn_Init="void UARTn_Init(void)" UARTn_SendData="MD_STATUS UARTn_SendData(UCHAR *txbuf, USHORT txnum)" UARTn_ReceiveData="MD_STATUS UARTn_ReceiveData(UCHAR *rxbuf, USHORT rxnum)" UARTn_Start="void UARTn_Start(void)" UARTn_Stop="void UARTn_Stop(void)" CSIn_Init="void CSIn_Init(void)" CSIn_SendData="MD_STATUS CSIn_SendData(UCHAR *txbuf, USHORT txnum)" CSIn_ReceiveData="MD_STATUS CSIn_ReceiveData(UCHAR *rxbuf, USHORT rxnum)" CSIn_SendReceiveData="MD_STATUS CSIn_SendReceiveData(UCHAR *txbuf, USHORT txnum, UCHAR *rxbuf)" CSIn_Start="void CSIn_Start(void)" CSIn_Stop="void CSIn_Stop(void)" SIICn_Init="void SIICn_Init(void)" SIICn_MasterSendStart="void SIICn_MasterSendStart(UCHAR adr, UCHAR *txbuf, USHORT txnum)" SIICn_MasterReceiveStart="void SIICn_MasterReceiveStart(UCHAR adr, UCHAR *rxbuf, USHORT rxnum)" SIICn_Stop="void SIICn_Stop(void)" SIICn_StartCondition="void SIICn_StartCondition(void)" SIICn_StopCondition="void SIICn_StopCondition(void)" IICn_Init="void IICn_Init(void)" IICn_MasterSendStart="MD_STATUS IICn_MasterSendStart(UCHAR adr, UCHAR *txbuf, USHORT txnum, UCHAR wait)" IICn_MasterReceiveStart="MD_STATUS IICn_MasterReceiveStart(UCHAR adr, UCHAR *rxbuf, USHORT rxnum, UCHAR wait)" IICn_SlaveSendStart="void IICn_SlaveSendStart(UCHAR *txbuf, USHORT txnum)" IICn_SlaveReceiveStart="void IICn_SlaveReceiveStart(UCHAR *rxbuf, USHORT rxnum)" IICn_Stop="void IICn_Stop(void)" IICn_StopCondition="void IICn_StopCondition(void)" IICn_PowerOff="void IICn_PowerOff(void)" />
+          <SAU0 InUse="">
+            <SAU0_Init UserName="SAU0_Init" LibName="SAUn_Init" InUse="0" Init="1" />
+            <SAU0_SnoozeOn UserName="SAU0_SnoozeOn" LibName="SAUn_SnoozeOn" InUse="0" />
+            <SAU0_SnoozeOff UserName="SAU0_SnoozeOff" LibName="SAUn_SnoozeOff" InUse="0" />
+            <SAU0_PowerOff UserName="SAU0_PowerOff" LibName="SAUn_PowerOff" InUse="0" />
+            <UART0 InUse="">
+              <UART0_Init UserName="UART0_Init" LibName="UARTn_Init" InUse="0" />
+              <UART0_Start UserName="UART0_Start" LibName="UARTn_Start" InUse="0" />
+              <UART0_Stop UserName="UART0_Stop" LibName="UARTn_Stop" InUse="0" />
+              <UART0_SendData UserName="UART0_SendData" LibName="UARTn_SendData" InUse="0" />
+              <UART0_ReceiveData UserName="UART0_ReceiveData" LibName="UARTn_ReceiveData" InUse="0" />
+            </UART0>
+            <UART1 InUse="">
+              <UART1_Init UserName="UART1_Init" LibName="UARTn_Init" InUse="0" />
+              <UART1_Start UserName="UART1_Start" LibName="UARTn_Start" InUse="0" />
+              <UART1_Stop UserName="UART1_Stop" LibName="UARTn_Stop" InUse="0" />
+              <UART1_SendData UserName="UART1_SendData" LibName="UARTn_SendData" InUse="0" />
+              <UART1_ReceiveData UserName="UART1_ReceiveData" LibName="UARTn_ReceiveData" InUse="0" />
+            </UART1>
+            <CSI00 PIOR="default,timer" InUse="">
+              <CSI00_Init UserName="CSI00_Init" LibName="CSIn_Init" InUse="0" />
+              <CSI00_Start UserName="CSI00_Start" LibName="CSIn_Start" InUse="0" />
+              <CSI00_Stop UserName="CSI00_Stop" LibName="CSIn_Stop" InUse="0" />
+              <CSI00_SendData UserName="CSI00_SendData" LibName="CSIn_SendData" InUse="0" />
+              <CSI00_ReceiveData UserName="CSI00_ReceiveData" LibName="CSIn_ReceiveData" InUse="0" />
+              <CSI00_SendReceiveData UserName="CSI00_SendReceiveData" LibName="CSIn_SendReceiveData" InUse="0" />
+            </CSI00>
+            <CSI01 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48" InUse="">
+              <CSI01_Init UserName="CSI01_Init" LibName="CSIn_Init" InUse="0" />
+              <CSI01_Start UserName="CSI01_Start" LibName="CSIn_Start" InUse="0" />
+              <CSI01_Stop UserName="CSI01_Stop" LibName="CSIn_Stop" InUse="0" />
+              <CSI01_SendData UserName="CSI01_SendData" LibName="CSIn_SendData" InUse="0" />
+              <CSI01_ReceiveData UserName="CSI01_ReceiveData" LibName="CSIn_ReceiveData" InUse="0" />
+              <CSI01_SendReceiveData UserName="CSI01_SendReceiveData" LibName="CSIn_SendReceiveData" InUse="0" />
+            </CSI01>
+            <CSI10 Chip="NEC78K0RKE4" InUse="">
+              <CSI10_Init UserName="CSI10_Init" LibName="CSIn_Init" InUse="0" />
+              <CSI10_Start UserName="CSI10_Start" LibName="CSIn_Start" InUse="0" />
+              <CSI10_Stop UserName="CSI10_Stop" LibName="CSIn_Stop" InUse="0" />
+              <CSI10_SendData UserName="CSI10_SendData" LibName="CSIn_SendData" InUse="0" />
+              <CSI10_ReceiveData UserName="CSI10_ReceiveData" LibName="CSIn_ReceiveData" InUse="0" />
+              <CSI10_SendReceiveData UserName="CSI10_SendReceiveData" LibName="CSIn_SendReceiveData" InUse="0" />
+            </CSI10>
+            <CSI11 InUse="">
+              <CSI11_Init UserName="CSI11_Init" LibName="CSIn_Init" InUse="0" />
+              <CSI11_Start UserName="CSI11_Start" LibName="CSIn_Start" InUse="0" />
+              <CSI11_Stop UserName="CSI11_Stop" LibName="CSIn_Stop" InUse="0" />
+              <CSI11_SendData UserName="CSI11_SendData" LibName="CSIn_SendData" InUse="0" />
+              <CSI11_ReceiveData UserName="CSI11_ReceiveData" LibName="CSIn_ReceiveData" InUse="0" />
+              <CSI11_SendReceiveData UserName="CSI11_SendReceiveData" LibName="CSIn_SendReceiveData" InUse="0" />
+            </CSI11>
+            <IIC00 PIOR="default,timer" InUse="">
+              <IIC00_Init UserName="IIC00_Init" LibName="SIICn_Init" InUse="0" />
+              <IIC00_MasterSendStart UserName="IIC00_MasterSendStart" LibName="SIICn_MasterSendStart" InUse="0" />
+              <IIC00_MasterReceiveStart UserName="IIC00_MasterReceiveStart" LibName="SIICn_MasterReceiveStart" InUse="0" />
+              <IIC00_Stop UserName="IIC00_Stop" LibName="SIICn_Stop" InUse="0" />
+              <IIC00_StartCondition UserName="IIC00_StartCondition" LibName="SIICn_StartCondition" InUse="0" />
+              <IIC00_StopCondition UserName="IIC00_StopCondition" LibName="SIICn_StopCondition" InUse="0" />
+            </IIC00>
+            <IIC01 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48" InUse="">
+              <IIC01_Init UserName="IIC01_Init" LibName="SIICn_Init" InUse="0" />
+              <IIC01_MasterSendStart UserName="IIC01_MasterSendStart" LibName="SIICn_MasterSendStart" InUse="0" />
+              <IIC01_MasterReceiveStart UserName="IIC01_MasterReceiveStart" LibName="SIICn_MasterReceiveStart" InUse="0" />
+              <IIC01_Stop UserName="IIC01_Stop" LibName="SIICn_Stop" InUse="0" />
+              <IIC01_StartCondition UserName="IIC01_StartCondition" LibName="SIICn_StartCondition" InUse="0" />
+              <IIC01_StopCondition UserName="IIC01_StopCondition" LibName="SIICn_StopCondition" InUse="0" />
+            </IIC01>
+            <IIC10 Chip="NEC78K0RKE4" InUse="">
+              <IIC10_Init UserName="IIC10_Init" LibName="SIICn_Init" InUse="0" />
+              <IIC10_MasterSendStart UserName="IIC10_MasterSendStart" LibName="SIICn_MasterSendStart" InUse="0" />
+              <IIC10_MasterReceiveStart UserName="IIC10_MasterReceiveStart" LibName="SIICn_MasterReceiveStart" InUse="0" />
+              <IIC10_Stop UserName="IIC10_Stop" LibName="SIICn_Stop" InUse="0" />
+              <IIC10_StartCondition UserName="IIC10_StartCondition" LibName="SIICn_StartCondition" InUse="0" />
+              <IIC10_StopCondition UserName="IIC10_StopCondition" LibName="SIICn_StopCondition" InUse="0" />
+            </IIC10>
+            <IIC11 InUse="">
+              <IIC11_Init UserName="IIC11_Init" LibName="SIICn_Init" InUse="0" />
+              <IIC11_MasterSendStart UserName="IIC11_MasterSendStart" LibName="SIICn_MasterSendStart" InUse="0" />
+              <IIC11_MasterReceiveStart UserName="IIC11_MasterReceiveStart" LibName="SIICn_MasterReceiveStart" InUse="0" />
+              <IIC11_Stop UserName="IIC11_Stop" LibName="SIICn_Stop" InUse="0" />
+              <IIC11_StartCondition UserName="IIC11_StartCondition" LibName="SIICn_StartCondition" InUse="0" />
+              <IIC11_StopCondition UserName="IIC11_StopCondition" LibName="SIICn_StopCondition" InUse="0" />
+            </IIC11>
+          </SAU0>
+          <SAU1 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKF4,NEC78K0RKG4,NEC78K0RKH4" PIOR="default,timer" InUse="">
+            <SAU1_Init UserName="SAU1_Init" LibName="SAUn_Init" InUse="" Init="1" />
+            <SAU1_PowerOff UserName="SAU1_PowerOff" LibName="SAUn_PowerOff" InUse="" />
+            <UART2 InUse="">
+              <UART2_Init UserName="UART2_Init" LibName="UARTn_Init" InUse="" />
+              <UART2_Start UserName="UART2_Start" LibName="UARTn_Start" InUse="" />
+              <UART2_Stop UserName="UART2_Stop" LibName="UARTn_Stop" InUse="" />
+              <UART2_SendData UserName="UART2_SendData" LibName="UARTn_SendData" InUse="" />
+              <UART2_ReceiveData UserName="UART2_ReceiveData" LibName="UARTn_ReceiveData" InUse="" />
+            </UART2>
+            <CSI20 InUse="">
+              <CSI20_Init UserName="CSI20_Init" LibName="CSIn_Init" InUse="" />
+              <CSI20_Start UserName="CSI20_Start" LibName="CSIn_Start" InUse="" />
+              <CSI20_Stop UserName="CSI20_Stop" LibName="CSIn_Stop" InUse="" />
+              <CSI20_SendData UserName="CSI20_SendData" LibName="CSIn_SendData" InUse="" />
+              <CSI20_ReceiveData UserName="CSI20_ReceiveData" LibName="CSIn_ReceiveData" InUse="" />
+              <CSI20_SendReceiveData UserName="CSI20_SendReceiveData" LibName="CSIn_SendReceiveData" InUse="" />
+            </CSI20>
+            <CSI21 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" InUse="">
+              <CSI21_Init UserName="CSI21_Init" LibName="CSIn_Init" InUse="" />
+              <CSI21_Start UserName="CSI21_Start" LibName="CSIn_Start" InUse="" />
+              <CSI21_Stop UserName="CSI21_Stop" LibName="CSIn_Stop" InUse="" />
+              <CSI21_SendData UserName="CSI21_SendData" LibName="CSIn_SendData" InUse="" />
+              <CSI21_ReceiveData UserName="CSI21_ReceiveData" LibName="CSIn_ReceiveData" InUse="" />
+              <CSI21_SendReceiveData UserName="CSI21_SendReceiveData" LibName="CSIn_SendReceiveData" InUse="" />
+            </CSI21>
+            <IIC20 InUse="">
+              <IIC20_Init UserName="IIC20_Init" LibName="SIICn_Init" InUse="" />
+              <IIC20_MasterSendStart UserName="IIC20_MasterSendStart" LibName="SIICn_MasterSendStart" InUse="" />
+              <IIC20_MasterReceiveStart UserName="IIC20_MasterReceiveStart" LibName="SIICn_MasterReceiveStart" InUse="" />
+              <IIC20_Stop UserName="IIC20_Stop" LibName="SIICn_Stop" InUse="" />
+              <IIC20_StartCondition UserName="IIC20_StartCondition" LibName="SIICn_StartCondition" InUse="" />
+              <IIC20_StopCondition UserName="IIC20_StopCondition" LibName="SIICn_StopCondition" InUse="" />
+            </IIC20>
+            <IIC21 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" InUse="">
+              <IIC21_Init UserName="IIC21_Init" LibName="SIICn_Init" InUse="" />
+              <IIC21_MasterSendStart UserName="IIC21_MasterSendStart" LibName="SIICn_MasterSendStart" InUse="" />
+              <IIC21_MasterReceiveStart UserName="IIC21_MasterReceiveStart" LibName="SIICn_MasterReceiveStart" InUse="" />
+              <IIC21_Stop UserName="IIC21_Stop" LibName="SIICn_Stop" InUse="" />
+              <IIC21_StartCondition UserName="IIC21_StartCondition" LibName="SIICn_StartCondition" InUse="" />
+              <IIC21_StopCondition UserName="IIC21_StopCondition" LibName="SIICn_StopCondition" InUse="" />
+            </IIC21>
+          </SAU1>
+          <IICA0 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" InUse="">
+            <IICA0_Init UserName="IICA0_Init" LibName="IICn_Init" InUse="" Init="1" />
+            <IICA0_MasterSendStart UserName="IICA0_MasterSendStart" LibName="IICn_MasterSendStart" InUse="" />
+            <IICA0_MasterReceiveStart UserName="IICA0_MasterReceiveStart" LibName="IICn_MasterReceiveStart" InUse="" />
+            <IICA0_SlaveSendStart UserName="IICA0_SlaveSendStart" LibName="IICn_SlaveSendStart" InUse="" />
+            <IICA0_SlaveReceiveStart UserName="IICA0_SlaveReceiveStart" LibName="IICn_SlaveReceiveStart" InUse="" />
+            <IICA0_Stop UserName="IICA0_Stop" LibName="IICn_Stop" InUse="" />
+            <IICA0_StopCondition UserName="IICA0_StopCondition" LibName="IICn_StopCondition" InUse="" />
+            <IICA0_PowerOff UserName="IICA0_PowerOff" LibName="IICn_PowerOff" InUse="" />
+          </IICA0>
+        </CG_serial.c>
+        <CG_serial_user.c UserName="CG_serial_user.c" LibName="_user.c" InUse="0">
+          <Type SAUn_UserInit="void SAUn_UserInit(void)" MD_INTSRn="__interrupt void MD_INTSRn(void)" MD_INTSREn="__interrupt void MD_INTSREn(void)" MD_INTSTn="__interrupt void MD_INTSTn(void)" UARTn_ReceiveEndCallback="void UARTn_ReceiveEndCallback(void)" UARTn_SendEndCallback="void UARTn_SendEndCallback(void)" UARTn_ErrorCallback="void UARTn_ErrorCallback(UCHAR err_type)" UARTn_SoftOverRunCallback="void UARTn_SoftOverRunCallback(UCHAR rx_data)" MD_INTCSIn="__interrupt void MD_INTCSIn(void)" CSIn_ReceiveEndCallback="void CSIn_ReceiveEndCallback(void)" CSIn_ErrorCallback="void CSIn_ErrorCallback(UCHAR err_type)" CSIn_SendEndCallback="void CSIn_SendEndCallback(void)" MD_INTSIICn="__interrupt void MD_INTSIICn(void)" SIICn_MasterReceiveEndCallback="void SIICn_MasterReceiveEndCallback(void)" SIICn_MasterSendEndCallback="void SIICn_MasterSendEndCallback(void)" SIICn_MasterErrorCallback="void SIICn_MasterErrorCallback(MD_STATUS flag)" IICn_UserInit="void IICn_UserInit(void)" MD_INTIICn="__interrupt void MD_INTIICn(void)" IICn_MasterSendEndCallback="void IICn_MasterSendEndCallback(void)" IICn_MasterReceiveEndCallback="void IICn_MasterReceiveEndCallback(void)" IICn_SlaveSendStart="MD_STATUS IICn_SlaveSendStart(UCHAR *txbuf, USHORT txnum)" IICn_SlaveReceiveStart="MD_STATUS IICn_SlaveReceiveStart(UCHAR *rxbuf, USHORT rxnum)" IICn_MasterErrorCallback="void IICn_MasterErrorCallback(MD_STATUS flag)" IICn_SlaveErrorCallback="void IICn_SlaveErrorCallback(MD_STATUS flag)" IICn_GetStopConditionCallback="void IICn_GetStopConditionCallback(void)" />
+          <SAU0 InUse="">
+            <SAU0_UserInit UserName="SAU0_UserInit" LibName="SAUn_UserInit" InUse="0" />
+            <UART0 InUse="">
+              <MD_INTSR0 UserName="MD_INTSR0" INTHandle="" LibName="MD_INTSRn" InUse="0" />
+              <MD_INTSRE0 UserName="MD_INTSRE0" INTHandle="" LibName="MD_INTSREn" InUse="0" />
+              <MD_INTST0 UserName="MD_INTST0" INTHandle="" LibName="MD_INTSTn" InUse="0" />
+              <UART0_ReceiveEndCallback UserName="UART0_ReceiveEndCallback" LibName="UARTn_ReceiveEndCallback" InUse="0" />
+              <UART0_SendEndCallback UserName="UART0_SendEndCallback" LibName="UARTn_SendEndCallback" InUse="0" />
+              <UART0_ErrorCallback UserName="UART0_ErrorCallback" LibName="UARTn_ErrorCallback" InUse="0" />
+              <UART0_SoftOverRunCallback UserName="UART0_SoftOverRunCallback" LibName="UARTn_SoftOverRunCallback" InUse="0" />
+            </UART0>
+            <UART1 InUse="">
+              <MD_INTSR1 UserName="MD_INTSR1" INTHandle="" LibName="MD_INTSRn" InUse="0" />
+              <MD_INTSRE1 UserName="MD_INTSRE1" INTHandle="" LibName="MD_INTSREn" InUse="0" />
+              <MD_INTST1 UserName="MD_INTST1" INTHandle="" LibName="MD_INTSTn" InUse="0" />
+              <UART1_ReceiveEndCallback UserName="UART1_ReceiveEndCallback" LibName="UARTn_ReceiveEndCallback" InUse="0" />
+              <UART1_SendEndCallback UserName="UART1_SendEndCallback" LibName="UARTn_SendEndCallback" InUse="0" />
+              <UART1_ErrorCallback UserName="UART1_ErrorCallback" LibName="UARTn_ErrorCallback" InUse="0" />
+              <UART1_SoftOverRunCallback UserName="UART1_SoftOverRunCallback" LibName="UARTn_SoftOverRunCallback" InUse="0" />
+            </UART1>
+            <CSI00 PIOR="default,timer" InUse="">
+              <MD_INTCSI00 UserName="MD_INTCSI00" INTHandle="" LibName="MD_INTCSIn" InUse="0" />
+              <CSI00_ReceiveEndCallback UserName="CSI00_ReceiveEndCallback" LibName="CSIn_ReceiveEndCallback" InUse="0" />
+              <CSI00_ErrorCallback UserName="CSI00_ErrorCallback" LibName="CSIn_ErrorCallback" InUse="0" />
+              <CSI00_SendEndCallback UserName="CSI00_SendEndCallback" LibName="CSIn_SendEndCallback" InUse="0" />
+            </CSI00>
+            <CSI01 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48" InUse="">
+              <MD_INTCSI01 UserName="MD_INTCSI01" INTHandle="" LibName="MD_INTCSIn" InUse="0" />
+              <CSI01_ReceiveEndCallback UserName="CSI01_ReceiveEndCallback" LibName="CSIn_ReceiveEndCallback" InUse="0" />
+              <CSI01_ErrorCallback UserName="CSI01_ErrorCallback" LibName="CSIn_ErrorCallback" InUse="0" />
+              <CSI01_SendEndCallback UserName="CSI01_SendEndCallback" LibName="CSIn_SendEndCallback" InUse="0" />
+            </CSI01>
+            <CSI10 Chip="NEC78K0RKE4" InUse="">
+              <MD_INTCSI10 UserName="MD_INTCSI10" INTHandle="" LibName="MD_INTCSIn" InUse="0" />
+              <CSI10_ReceiveEndCallback UserName="CSI10_ReceiveEndCallback" LibName="CSIn_ReceiveEndCallback" InUse="0" />
+              <CSI10_ErrorCallback UserName="CSI10_ErrorCallback" LibName="CSIn_ErrorCallback" InUse="0" />
+              <CSI10_SendEndCallback UserName="CSI10_SendEndCallback" LibName="CSIn_SendEndCallback" InUse="0" />
+            </CSI10>
+            <CSI11 InUse="">
+              <MD_INTCSI11 UserName="MD_INTCSI11" INTHandle="" LibName="MD_INTCSIn" InUse="0" />
+              <CSI11_ReceiveEndCallback UserName="CSI11_ReceiveEndCallback" LibName="CSIn_ReceiveEndCallback" InUse="0" />
+              <CSI11_ErrorCallback UserName="CSI11_ErrorCallback" LibName="CSIn_ErrorCallback" InUse="0" />
+              <CSI11_SendEndCallback UserName="CSI11_SendEndCallback" LibName="CSIn_SendEndCallback" InUse="0" />
+            </CSI11>
+            <IIC00 PIOR="default,timer" InUse="">
+              <MD_INTIIC00 UserName="MD_INTIIC00" INTHandle="" LibName="MD_INTSIICn" InUse="0" />
+              <IIC00_MasterReceiveEndCallback UserName="IIC00_MasterReceiveEndCallback" LibName="SIICn_MasterReceiveEndCallback" InUse="0" />
+              <IIC00_MasterSendEndCallback UserName="IIC00_MasterSendEndCallback" LibName="SIICn_MasterSendEndCallback" InUse="0" />
+              <IIC00_MasterErrorCallback UserName="IIC00_MasterErrorCallback" LibName="SIICn_MasterErrorCallback" InUse="0" />
+            </IIC00>
+            <IIC01 Chip="NEC78K0RKD4,NEC78K0RKE4,DF1059_48,DF1060_48,DF1061_48,DF1062_48" InUse="">
+              <MD_INTIIC01 UserName="MD_INTIIC01" INTHandle="" LibName="MD_INTSIICn" InUse="0" />
+              <IIC01_MasterReceiveEndCallback UserName="IIC01_MasterReceiveEndCallback" LibName="SIICn_MasterReceiveEndCallback" InUse="0" />
+              <IIC01_MasterSendEndCallback UserName="IIC01_MasterSendEndCallback" LibName="SIICn_MasterSendEndCallback" InUse="0" />
+              <IIC01_MasterErrorCallback UserName="IIC01_MasterErrorCallback" LibName="SIICn_MasterErrorCallback" InUse="0" />
+            </IIC01>
+            <IIC10 Chip="NEC78K0RKE4" InUse="">
+              <MD_INTIIC10 UserName="MD_INTIIC10" INTHandle="" LibName="MD_INTSIICn" InUse="0" />
+              <IIC10_MasterReceiveEndCallback UserName="IIC10_MasterReceiveEndCallback" LibName="SIICn_MasterReceiveEndCallback" InUse="0" />
+              <IIC10_MasterSendEndCallback UserName="IIC10_MasterSendEndCallback" LibName="SIICn_MasterSendEndCallback" InUse="0" />
+              <IIC10_MasterErrorCallback UserName="IIC10_MasterErrorCallback" LibName="SIICn_MasterErrorCallback" InUse="0" />
+            </IIC10>
+            <IIC11 InUse="">
+              <MD_INTIIC11 UserName="MD_INTIIC11" INTHandle="" LibName="MD_INTSIICn" InUse="0" />
+              <IIC11_MasterReceiveEndCallback UserName="IIC11_MasterReceiveEndCallback" LibName="SIICn_MasterReceiveEndCallback" InUse="0" />
+              <IIC11_MasterSendEndCallback UserName="IIC11_MasterSendEndCallback" LibName="SIICn_MasterSendEndCallback" InUse="0" />
+              <IIC11_MasterErrorCallback UserName="IIC11_MasterErrorCallback" LibName="SIICn_MasterErrorCallback" InUse="0" />
+            </IIC11>
+          </SAU0>
+          <SAU1 Chip="NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,NEC78K0RKF4,NEC78K0RKG4,NEC78K0RKH4" PIOR="default,timer" InUse="">
+            <SAU1_UserInit UserName="SAU1_UserInit" LibName="SAUn_UserInit" InUse="" />
+            <UART2 InUse="">
+              <MD_INTSR2 UserName="MD_INTSR2" INTHandle="" LibName="MD_INTSRn" InUse="" />
+              <MD_INTSRE2 UserName="MD_INTSRE2" INTHandle="" LibName="MD_INTSREn" InUse="" />
+              <MD_INTST2 UserName="MD_INTST2" INTHandle="" LibName="MD_INTSTn" InUse="" />
+              <UART2_ReceiveEndCallback UserName="UART2_ReceiveEndCallback" LibName="UARTn_ReceiveEndCallback" InUse="" />
+              <UART2_SendEndCallback UserName="UART2_SendEndCallback" LibName="UARTn_SendEndCallback" InUse="" />
+              <UART2_ErrorCallback UserName="UART2_ErrorCallback" LibName="UARTn_ErrorCallback" InUse="" />
+              <UART2_SoftOverRunCallback UserName="UART2_SoftOverRunCallback" LibName="UARTn_SoftOverRunCallback" InUse="" />
+            </UART2>
+            <CSI20 InUse="">
+              <MD_INTCSI20 UserName="MD_INTCSI20" INTHandle="" LibName="MD_INTCSIn" InUse="" />
+              <CSI20_ReceiveEndCallback UserName="CSI20_ReceiveEndCallback" LibName="CSIn_ReceiveEndCallback" InUse="" />
+              <CSI20_ErrorCallback UserName="CSI20_ErrorCallback" LibName="CSIn_ErrorCallback" InUse="" />
+              <CSI20_SendEndCallback UserName="CSI20_SendEndCallback" LibName="CSIn_SendEndCallback" InUse="" />
+            </CSI20>
+            <CSI21 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" InUse="">
+              <MD_INTCSI21 UserName="MD_INTCSI21" INTHandle="" LibName="MD_INTCSIn" InUse="" />
+              <CSI21_ReceiveEndCallback UserName="CSI21_ReceiveEndCallback" LibName="CSIn_ReceiveEndCallback" InUse="" />
+              <CSI21_ErrorCallback UserName="CSI21_ErrorCallback" LibName="CSIn_ErrorCallback" InUse="" />
+              <CSI21_SendEndCallback UserName="CSI21_SendEndCallback" LibName="CSIn_SendEndCallback" InUse="" />
+            </CSI21>
+            <IIC20 InUse="">
+              <MD_INTIIC20 UserName="MD_INTIIC20" INTHandle="" LibName="MD_INTSIICn" InUse="" />
+              <IIC20_MasterReceiveEndCallback UserName="IIC20_MasterReceiveEndCallback" LibName="SIICn_MasterReceiveEndCallback" InUse="" />
+              <IIC20_MasterSendEndCallback UserName="IIC20_MasterSendEndCallback" LibName="SIICn_MasterSendEndCallback" InUse="" />
+              <IIC20_MasterErrorCallback UserName="IIC20_MasterErrorCallback" LibName="SIICn_MasterErrorCallback" InUse="" />
+            </IIC20>
+            <IIC21 Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" InUse="">
+              <MD_INTIIC21 UserName="MD_INTIIC21" INTHandle="" LibName="MD_INTSIICn" InUse="" />
+              <IIC21_MasterReceiveEndCallback UserName="IIC21_MasterReceiveEndCallback" LibName="SIICn_MasterReceiveEndCallback" InUse="" />
+              <IIC21_MasterSendEndCallback UserName="IIC21_MasterSendEndCallback" LibName="SIICn_MasterSendEndCallback" InUse="" />
+              <IIC21_MasterErrorCallback UserName="IIC21_MasterErrorCallback" LibName="SIICn_MasterErrorCallback" InUse="" />
+            </IIC21>
+          </SAU1>
+          <IICA0 Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" InUse="">
+            <IICA0_UserInit UserName="IICA0_UserInit" LibName="IICn_UserInit" InUse="" />
+            <MD_INTIICA0 UserName="MD_INTIICA0" INTHandle="" LibName="MD_INTIICn" InUse="" />
+            <IICA0_MasterSendEndCallback UserName="IICA0_MasterSendEndCallback" LibName="IICn_MasterSendEndCallback" InUse="" />
+            <IICA0_MasterReceiveEndCallback UserName="IICA0_MasterReceiveEndCallback" LibName="IICn_MasterReceiveEndCallback" InUse="" />
+            <IICA0_SlaveSendEndCallback UserName="IICA0_SlaveSendEndCallback" LibName="IICn_SlaveSendEndCallback" InUse="" />
+            <IICA0_SlaveReceiveEndCallback UserName="IICA0_SlaveReceiveEndCallback" LibName="IICn_SlaveReceiveEndCallback" InUse="" />
+            <IICA0_MasterErrorCallback UserName="IICA0_MasterErrorCallback" LibName="IICn_MasterErrorCallback" InUse="" />
+            <IICA0_SlaveErrorCallback UserName="IICA0_SlaveErrorCallback" LibName="IICn_SlaveErrorCallback" InUse="" />
+            <IICA0_GetStopConditionCallback UserName="IICA0_GetStopConditionCallback" LibName="IICn_GetStopConditionCallback" InUse="" />
+          </IICA0>
+        </CG_serial_user.c>
+        <CG_serial.h UserName="CG_serial.h" LibName=".h" InUse="0" />
+      </Serial>
+      <AD>
+        <CG_ad.c UserName="CG_ad.c" LibName=".c" InUse="">
+          <Type AD_Init="void AD_Init(void)" AD_Start="void AD_Start(void)" AD_Stop="void AD_Stop(void)" AD_ComparatorOn="void AD_ComparatorOn(void)" AD_ComparatorOff="void AD_ComparatorOff(void)" AD_Read="void AD_Read(USHORT *buffer)" AD_ReadByte="void AD_ReadByte(UCHAR *buffer)" AD_SelectADChannel="MD_STATUS AD_SelectADChannel(enum ADChannel channel)" AD_SnoozeOn="void AD_SnoozeOn(void)" AD_SnoozeOff="void AD_SnoozeOff(void)" AD_SetAREACondition="MD_STATUS AD_SetAREACondition(UCHAR uppervalue, UCHAR lowervalue,enum ADAREA area)" AD_SelectTestChannel="MD_STATUS AD_SelectTestChannel(enum TestChannel channel)" AD_PowerOff="void AD_PowerOff(void)" />
+          <AD_Init UserName="AD_Init" LibName="AD_Init" InUse="" Init="1" />
+          <AD_Start UserName="AD_Start" LibName="AD_Start" InUse="" />
+          <AD_Stop UserName="AD_Stop" LibName="AD_Stop" InUse="" />
+          <AD_ComparatorOn UserName="AD_ComparatorOn" LibName="AD_ComparatorOn" InUse="" />
+          <AD_ComparatorOff UserName="AD_ComparatorOff" LibName="AD_ComparatorOff" InUse="" />
+          <AD_Read UserName="AD_Read" LibName="AD_Read" InUse="" />
+          <AD_ReadByte UserName="AD_ReadByte" LibName="AD_ReadByte" InUse="" />
+          <AD_SelectADChannel UserName="AD_SelectADChannel" LibName="AD_SelectADChannel" InUse="" />
+          <AD_SnoozeOn UserName="AD_SnoozeOn" LibName="AD_SnoozeOn" InUse="" />
+          <AD_SnoozeOff UserName="AD_SnoozeOff" LibName="AD_SnoozeOff" InUse="" />
+          <AD_SetAREACondition UserName="AD_SetAREACondition" LibName="AD_SetAREACondition" InUse="" />
+          <AD_SelectTestChannel UserName="AD_SelectTestChannel" LibName="AD_SelectTestChannel" InUse="" />
+          <AD_PowerOff UserName="AD_PowerOff" LibName="AD_PowerOff" InUse="" />
+        </CG_ad.c>
+        <CG_ad_user.c UserName="CG_ad_user.c" LibName="_user.c" InUse="">
+          <Type AD_User_Init="void AD_UserInit(void)" MD_INTAD="__interrupt void MD_INTAD(void)" />
+          <AD_UserInit UserName="AD_UserInit" LibName="AD_UserInit" InUse="" />
+          <MD_INTAD UserName="MD_INTAD" INTHandle="" LibName="MD_INTAD" InUse="" />
+        </CG_ad_user.c>
+        <CG_ad.h UserName="CG_ad.h" LibName=".h" InUse="" />
+      </AD>
+      <TAU>
+        <CG_timer.c UserName="CG_timer.c" LibName=".c" InUse="">
+          <Type TAUn_Init="void TAUn_Init(void)" TAUn_PowerOff="void TAUn_PowerOff(void)" TAU_Channeln_Start="void TAU_Channeln_Start(void)" TAU_Channeln_Higher8bitsStart="void TAU_Channeln_Higher8bitsStart(void)" TAU_Channeln_Lower8bitsStart="void TAU_Channeln_Lower8bitsStart(void)" TAU_Channeln_Stop="void TAU_Channeln_Stop(void)" TAU_Channeln_Higher8bitsStop="void TAU_Channeln_Higher8bitsStop(void)" TAU_Channeln_Lower8bitsStop="void TAU_Channeln_Lower8bitsStop(void)" TAU_Channeln_ChangeTimerCondition="void TAU_Channeln_ChangeTimerCondition(USHORT regvalue)" TAU_Channeln_Higher8bitsChangeTimerCondition="void TAU_Channeln_Higher8bitsChangeTimerCondition(UCHAR regvalue)" TAU_Channeln_Lower8bitsChangeTimerCondition="void TAU_Channeln_Lower8bitsChangeTimerCondition(UCHAR regvalue)" TAU_Channeln_GetPulseWidth="void TAU_Channeln_GetPulseWidth(ULONG *width)" TAU_Channeln_SoftWareTriggerOn="void TAU_Channeln_SoftWareTriggerOn(void)" TAU_Channeln_ChangeDuty="void TAU_Channeln_ChangeDuty(UCHAR ratio)" />
+          <TAU0>
+            <TAU0_Init UserName="TAU0_Init" LibName="TAUn_Init" InUse="" Init="1" />
+            <TAU0_PowerOff UserName="TAU0_PowerOff" LibName="TAUn_PowerOff" InUse="" />
+            <Channel0 InUse="">
+              <TAU0_Channel0_Start UserName="TAU0_Channel0_Start" LibName="TAU_Channeln_Start" InUse="" />
+              <TAU0_Channel0_Stop UserName="TAU0_Channel0_Stop" LibName="TAU_Channeln_Stop" InUse="" />
+              <TAU0_Channel0_ChangeTimerCondition UserName="TAU0_Channel0_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="" />
+              <TAU0_Channel0_GetPulseWidth UserName="TAU0_Channel0_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="" />
+              <TAU0_Channel0_SoftWareTriggerOn UserName="TAU0_Channel0_SoftWareTriggerOn" LibName="TAU_Channeln_SoftWareTriggerOn" InUse="" />
+            </Channel0>
+            <Channel1 InUse="">
+              <TAU0_Channel1_Start UserName="TAU0_Channel1_Start" LibName="TAU_Channeln_Start" InUse="" />
+              <TAU0_Channel1_Higher8bitsStart UserName="TAU0_Channel1_Higher8bitsStart" LibName="TAU_Channeln_Higher8bitsStart" InUse="" />
+              <TAU0_Channel1_Lower8bitsStart UserName="TAU0_Channel1_Lower8bitsStart" LibName="TAU_Channeln_Lower8bitsStart" InUse="" />
+              <TAU0_Channel1_Stop UserName="TAU0_Channel1_Stop" LibName="TAU_Channeln_Stop" InUse="" />
+              <TAU0_Channel1_Higher8bitsStop UserName="TAU0_Channel1_Higher8bitsStop" LibName="TAU_Channeln_Higher8bitsStop" InUse="" />
+              <TAU0_Channel1_Lower8bitsStop UserName="TAU0_Channel1_Lower8bitsStop" LibName="TAU_Channeln_Lower8bitsStop" InUse="" />
+              <TAU0_Channel1_ChangeTimerCondition UserName="TAU0_Channel1_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="" />
+              <TAU0_Channel1_Higher8bitsChangeTimerCondition UserName="TAU0_Channel1_Higher8bitsChangeTimerCondition" LibName="TAU_Channeln_Higher8bitsChangeTimerCondition" InUse="" />
+              <TAU0_Channel1_Lower8bitsChangeTimerCondition UserName="TAU0_Channel1_Lower8bitsChangeTimerCondition" LibName="TAU_Channeln_Lower8bitsChangeTimerCondition" InUse="" />
+              <TAU0_Channel1_ChangeDuty UserName="TAU0_Channel1_ChangeDuty" LibName="TAU_Channeln_ChangeDuty" InUse="" />
+              <TAU0_Channel1_GetPulseWidth UserName="TAU0_Channel1_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="" />
+            </Channel1>
+            <Channel2 InUse="">
+              <TAU0_Channel2_Start UserName="TAU0_Channel2_Start" LibName="TAU_Channeln_Start" InUse="" />
+              <TAU0_Channel2_Stop UserName="TAU0_Channel2_Stop" LibName="TAU_Channeln_Stop" InUse="" />
+              <TAU0_Channel2_ChangeTimerCondition UserName="TAU0_Channel2_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="" />
+              <TAU0_Channel2_ChangeDuty UserName="TAU0_Channel2_ChangeDuty" LibName="TAU_Channeln_ChangeDuty" InUse="" />
+              <TAU0_Channel2_GetPulseWidth UserName="TAU0_Channel2_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="" />
+              <TAU0_Channel2_SoftWareTriggerOn UserName="TAU0_Channel2_SoftWareTriggerOn" LibName="TAU_Channeln_SoftWareTriggerOn" InUse="" />
+            </Channel2>
+            <Channel3 InUse="">
+              <TAU0_Channel3_Start UserName="TAU0_Channel3_Start" LibName="TAU_Channeln_Start" InUse="" />
+              <TAU0_Channel3_Higher8bitsStart UserName="TAU0_Channel3_Higher8bitsStart" LibName="TAU_Channeln_Higher8bitsStart" InUse="" />
+              <TAU0_Channel3_Lower8bitsStart UserName="TAU0_Channel3_Lower8bitsStart" LibName="TAU_Channeln_Lower8bitsStart" InUse="" />
+              <TAU0_Channel3_Stop UserName="TAU0_Channel3_Stop" LibName="TAU_Channeln_Stop" InUse="" />
+              <TAU0_Channel3_Higher8bitsStop UserName="TAU0_Channel3_Higher8bitsStop" LibName="TAU_Channeln_Higher8bitsStop" InUse="" />
+              <TAU0_Channel3_Lower8bitsStop UserName="TAU0_Channel3_Lower8bitsStop" LibName="TAU_Channeln_Lower8bitsStop" InUse="" />
+              <TAU0_Channel3_ChangeTimerCondition UserName="TAU0_Channel3_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="" />
+              <TAU0_Channel3_Higher8bitsChangeTimerCondition UserName="TAU0_Channel3_Higher8bitsChangeTimerCondition" LibName="TAU_Channeln_Higher8bitsChangeTimerCondition" InUse="" />
+              <TAU0_Channel3_Lower8bitsChangeTimerCondition UserName="TAU0_Channel3_Lower8bitsChangeTimerCondition" LibName="TAU_Channeln_Lower8bitsChangeTimerCondition" InUse="" />
+              <TAU0_Channel3_ChangeDuty Chip="DF1051_24,DF1051_25,DF1052_24,DF1052_25,DF1053_24,DF1053_25,DF1054_24,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" UserName="TAU0_Channel3_ChangeDuty" LibName="TAU_Channeln_ChangeDuty" InUse="" />
+              <TAU0_Channel3_GetPulseWidth Chip="DF1051_24,DF1051_25,DF1052_24,DF1052_25,DF1053_24,DF1053_25,DF1054_24,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" UserName="TAU0_Channel3_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="" />
+            </Channel3>
+            <Channel4 PIOR="default,serial" InUse="">
+              <TAU0_Channel4_Start UserName="TAU0_Channel4_Start" LibName="TAU_Channeln_Start" InUse="" />
+              <TAU0_Channel4_Stop UserName="TAU0_Channel4_Stop" LibName="TAU_Channeln_Stop" InUse="" />
+              <TAU0_Channel4_ChangeTimerCondition UserName="TAU0_Channel4_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="" />
+              <TAU0_Channel4_ChangeDuty Chip="NEC78K0RKE4" UserName="TAU0_Channel4_ChangeDuty" LibName="TAU_Channeln_ChangeDuty" InUse="" />
+              <TAU0_Channel4_GetPulseWidth Chip="NEC78K0RKE4" UserName="TAU0_Channel4_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="" />
+              <TAU0_Channel4_SoftWareTriggerOn Chip="NEC78K0RKE4" UserName="TAU0_Channel4_SoftWareTriggerOn" LibName="TAU_Channeln_SoftWareTriggerOn" InUse="" />
+            </Channel4>
+            <Channel5 PIOR="default,serial" InUse="">
+              <TAU0_Channel5_Start UserName="TAU0_Channel5_Start" LibName="TAU_Channeln_Start" InUse="" />
+              <TAU0_Channel5_Stop UserName="TAU0_Channel5_Stop" LibName="TAU_Channeln_Stop" InUse="" />
+              <TAU0_Channel5_ChangeTimerCondition UserName="TAU0_Channel5_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="" />
+              <TAU0_Channel5_ChangeDuty Chip="NEC78K0RKE4" UserName="TAU0_Channel5_ChangeDuty" LibName="TAU_Channeln_ChangeDuty" InUse="" />
+              <TAU0_Channel5_GetPulseWidth Chip="NEC78K0RKE4" UserName="TAU0_Channel5_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="" />
+            </Channel5>
+            <Channel6 PIOR="default,serial" InUse="">
+              <TAU0_Channel6_Start UserName="TAU0_Channel6_Start" LibName="TAU_Channeln_Start" InUse="" />
+              <TAU0_Channel6_Stop UserName="TAU0_Channel6_Stop" LibName="TAU_Channeln_Stop" InUse="" />
+              <TAU0_Channel6_ChangeTimerCondition UserName="TAU0_Channel6_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="" />
+              <TAU0_Channel6_ChangeDuty Chip="NEC78K0RKE4" UserName="TAU0_Channel6_ChangeDuty" LibName="TAU_Channeln_ChangeDuty" InUse="" />
+              <TAU0_Channel6_GetPulseWidth Chip="NEC78K0RKE4" UserName="TAU0_Channel6_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="" />
+              <TAU0_Channel6_SoftWareTriggerOn Chip="NEC78K0RKE4" UserName="TAU0_Channel6_SoftWareTriggerOn" LibName="TAU_Channeln_SoftWareTriggerOn" InUse="" />
+            </Channel6>
+            <Channel7 PIOR="default,serial" InUse="">
+              <TAU0_Channel7_Start UserName="TAU0_Channel7_Start" LibName="TAU_Channeln_Start" InUse="" />
+              <TAU0_Channel7_Stop UserName="TAU0_Channel7_Stop" LibName="TAU_Channeln_Stop" InUse="" />
+              <TAU0_Channel7_ChangeTimerCondition UserName="TAU0_Channel7_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="" />
+              <TAU0_Channel7_ChangeDuty Chip="NEC78K0RKE4,NEC78K0RKD4,DF1059_48,DF1059_44,DF1060_44,DF1060_48,DF1061_48,DF1061_44,DF1062_44,DF1062_48" UserName="TAU0_Channel7_ChangeDuty" LibName="TAU_Channeln_ChangeDuty" InUse="" />
+              <TAU0_Channel7_GetPulseWidth Chip="NEC78K0RKE4,NEC78K0RKD4,DF1059_48,DF1059_44,DF1060_44,DF1060_48,DF1061_48,DF1061_44,DF1062_44,DF1062_48" UserName="TAU0_Channel7_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="" />
+            </Channel7>
+          </TAU0>
+        </CG_timer.c>
+        <CG_timer_user.c UserName="CG_timer_user.c" LibName="_user.c" InUse="">
+          <Type TAUn_UserInit="void TAUn_UserInit(void)" MD_INTTMn="__interrupt void MD_INTTMn(void)" MD_INTTMnH="__interrupt void MD_INTTMnH(void)" />
+          <TAU0>
+            <TAU0_UserInit UserName="TAU0_UserInit" LibName="TAUn_UserInit" InUse="" />
+            <Channel0 InUse="">
+              <MD_INTTM00 UserName="MD_INTTM00" INTHandle="" LibName="MD_INTTMn" InUse="" />
+            </Channel0>
+            <Channel1 InUse="">
+              <MD_INTTM01 UserName="MD_INTTM01" INTHandle="" LibName="MD_INTTMn" InUse="" />
+              <MD_INTTM01H UserName="MD_INTTM01H" INTHandle="" LibName="MD_INTTMnH" InUse="" />
+            </Channel1>
+            <Channel2 InUse="">
+              <MD_INTTM02 UserName="MD_INTTM02" INTHandle="" LibName="MD_INTTMn" InUse="" />
+            </Channel2>
+            <Channel3 InUse="">
+              <MD_INTTM03 UserName="MD_INTTM03" INTHandle="" LibName="MD_INTTMn" InUse="" />
+              <MD_INTTM03H UserName="MD_INTTM03H" INTHandle="" LibName="MD_INTTMnH" InUse="" />
+            </Channel3>
+            <Channel4 InUse="">
+              <MD_INTTM04 UserName="MD_INTTM04" INTHandle="" LibName="MD_INTTMn" InUse="" />
+            </Channel4>
+            <Channel5 InUse="">
+              <MD_INTTM05 UserName="MD_INTTM05" INTHandle="" LibName="MD_INTTMn" InUse="" />
+            </Channel5>
+            <Channel6 InUse="">
+              <MD_INTTM06 UserName="MD_INTTM06" INTHandle="" LibName="MD_INTTMn" InUse="" />
+            </Channel6>
+            <Channel7 InUse="">
+              <MD_INTTM07 UserName="MD_INTTM07" INTHandle="" LibName="MD_INTTMn" InUse="" />
+            </Channel7>
+          </TAU0>
+        </CG_timer_user.c>
+        <CG_timer.h UserName="CG_timer.h" LibName=".h" InUse="" />
+      </TAU>
+      <WDT>
+        <CG_wdt.c UserName="CG_wdt.c" LibName=".c" InUse="1">
+          <Type WDT_Init="void WDT_Init(void)" WDT_Restart="void WDT_Restart(void)" />
+          <WDT_Init UserName="WDT_Init" LibName="WDT_Init" InUse="1" Init="1" />
+          <WDT_Restart UserName="WDT_Restart" LibName="WDT_Restart" InUse="1" />
+        </CG_wdt.c>
+        <CG_wdt_user.c UserName="CG_wdt_user.c" LibName="_user.c" InUse="1">
+          <Type WDT_UserInit="void WDT_UserInit(void)" />
+          <WDT_UserInit UserName="WDT_UserInit" LibName="WDT_UserInit" InUse="" />
+          <MD_INTWDTI UserName="MD_INTWDTI" INTHandle="" LibName="MD_INTWDTI" InUse="1" />
+        </CG_wdt_user.c>
+        <CG_wdt.h UserName="CG_wdt.h" LibName=".h" InUse="1" />
+      </WDT>
+      <RTC Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36">
+        <CG_rtc.c UserName="CG_rtc.c" LibName=".c" InUse="">
+          <Type RTC_Init="void RTC_Init(void)" RTC_CounterEnable="void RTC_CounterEnable(void)" RTC_CounterDisable="void RTC_CounterDisable(void)" RTC_SetHourSystem="MD_STATUS RTC_SetHourSystem(enum RTCHourSystem hoursystem)" RTC_CounterGet="MD_STATUS RTC_CounterGet(struct RTCCounterValue *counterreadval)" RTC_CounterSet="MD_STATUS RTC_CounterSet(struct RTCCounterValue counterwriteval)" RTC_AlarmEnable="void RTC_AlarmEnable(void)" RTC_AlarmDisable="void RTC_AlarmDisable(void)" RTC_AlarmSet="void RTC_AlarmSet(struct RTCAlarmValue alarmval)" RTC_AlarmGet="void RTC_AlarmGet(struct RTCAlarmValue *alarmval)" RTC_ConstPeriodInterruptEnable="MD_STATUS RTC_ConstPeriodInterruptEnable(enum RTCINTPeriod period)" RTC_ConstPeriodInterruptDisable="void RTC_ConstPeriodInterruptDisable(void)" RTC_ChangeCorrectionValue="MD_STATUS RTC_ChangeCorrectionValue(enum RTCCorectionTiming timing, UCHAR correctval)" RTC_RTC1HZ_OutputEnable="void RTC_RTC1HZ_OutputEnable(void)" RTC_RTC1HZ_OutputDisable="void RTC_RTC1HZ_OutputDisable(void)" RTC_PowerOff="void RTC_PowerOff(void)" />
+          <RTC_Init UserName="RTC_Init" LibName="RTC_Init" InUse="" Init="1" />
+          <RTC_CounterEnable UserName="RTC_CounterEnable" LibName="RTC_CounterEnable" InUse="" />
+          <RTC_CounterDisable UserName="RTC_CounterDisable" LibName="RTC_CounterDisable" InUse="" />
+          <RTC_SetHourSystem UserName="RTC_SetHourSystem" LibName="RTC_SetHourSystem" InUse="" />
+          <RTC_CounterGet UserName="RTC_CounterGet" LibName="RTC_CounterGet" InUse="" />
+          <RTC_CounterSet UserName="RTC_CounterSet" LibName="RTC_CounterSet" InUse="" />
+          <RTC_AlarmEnable UserName="RTC_AlarmEnable" LibName="RTC_AlarmEnable" InUse="" />
+          <RTC_AlarmDisable UserName="RTC_AlarmDisable" LibName="RTC_AlarmDisable" InUse="" />
+          <RTC_AlarmSet UserName="RTC_AlarmSet" LibName="RTC_AlarmSet" InUse="" />
+          <RTC_AlarmGet UserName="RTC_AlarmGet" LibName="RTC_AlarmGet" InUse="" />
+          <RTC_ConstPeriodInterruptEnable UserName="RTC_ConstPeriodInterruptEnable" LibName="RTC_ConstPeriodInterruptEnable" InUse="" />
+          <RTC_ConstPeriodInterruptDisable UserName="RTC_ConstPeriodInterruptDisable" LibName="RTC_ConstPeriodInterruptDisable" InUse="" />
+          <RTC_ChangeCorrectionValue UserName="RTC_ChangeCorrectionValue" LibName="RTC_ChangeCorrectionValue" InUse="" />
+          <RTC_RTC1HZ_OutputEnable Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" UserName="RTC_RTC1HZ_OutputEnable" LibName="RTC_RTC1HZ_OutputEnable" InUse="" />
+          <RTC_RTC1HZ_OutputDisable Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" UserName="RTC_RTC1HZ_OutputDisable" LibName="RTC_RTC1HZ_OutputDisable" InUse="" />
+          <RTC_PowerOff UserName="RTC_PowerOff" LibName="RTC_PowerOff" InUse="" />
+        </CG_rtc.c>
+        <CG_rtc_user.c UserName="CG_rtc_user.c" LibName="_user.c" InUse="">
+          <Type RTC_User_Init="void RTC_User_Init(void)" MD_INTRTC="__interrupt void MD_INTRTC(void)" RTC_ConstPeriodInterruptCallback="void RTC_ConstPeriodInterruptCallback(void)" RTC_AlarmInterruptCallback="void RTC_AlarmInterruptCallback(void)" />
+          <RTC_UserInit UserName="RTC_UserInit" LibName="RTC_UserInit" InUse="" />
+          <MD_INTRTC UserName="MD_INTRTC" INTHandle="" LibName="MD_INTRTC" InUse="" />
+          <RTC_ConstPeriodInterruptCallback UserName="RTC_ConstPeriodInterruptCallback" LibName="RTC_ConstPeriodInterruptCallback" InUse="" />
+          <RTC_AlarmInterruptCallback UserName="RTC_AlarmInterruptCallback" LibName="RTC_AlarmInterruptCallback" InUse="" />
+        </CG_rtc_user.c>
+        <CG_rtc.h UserName="CG_rtc.h" LibName=".h" InUse="" />
+      </RTC>
+      <IT>
+        <CG_it.c UserName="CG_it.c" LibName=".c" InUse="">
+          <Type IT_Init="void IT_Init(void)" IT_Start="void IT_Start(void)" IT_Stop="void IT_Stop(void)" IT_ChangeTimerCondition="void IT_ChangeTimerCondition(USHORT regvalue)" IT_PowerOff="void IT_PowerOff(void)" />
+          <IT_Init UserName="IT_Init" LibName="IT_Init" InUse="" Init="1" />
+          <IT_Start UserName="IT_Start" LibName="IT_Start" InUse="" />
+          <IT_Stop UserName="IT_Stop" LibName="IT_Stop" InUse="" />
+          <IT_ChangeTimerCondition UserName="IT_ChangeTimerCondition" LibName="IT_ChangeTimerCondition" InUse="" />
+          <IT_PowerOff UserName="IT_PowerOff" LibName="IT_PowerOff" InUse="" />
+        </CG_it.c>
+        <CG_it_user.c UserName="CG_it_user.c" LibName="_user.c" InUse="">
+          <Type IT_User_Init="IT_User_Init(void)" MD_INTIT="__interrupt void MD_INTIT(void)" />
+          <IT_UserInit UserName="IT_UserInit" LibName="IT_UserInit" InUse="" />
+          <MD_INTIT UserName="MD_INTIT" INTHandle="" LibName="MD_INTIT" InUse="" />
+        </CG_it_user.c>
+        <CG_it.h UserName="CG_it.h" LibName=".h" InUse="" />
+      </IT>
+      <PCLBUZ Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4,DF1051_24,DF1052_24,DF1053_24,DF1054_24">
+        <CG_pclbuz.c UserName="CG_pclbuz.c" LibName=".c" InUse="">
+          <Type PCLBUZn_Init="void PCLBUZn_Init(void)	" PCLBUZn_Start="void PCLBUZn_Start(void)" PCLBUZn_Stop="void PCLBUZn_Stop(void)" PCLBUZn_ChangeFreq="MD_STATUS PCLBUZn_ChangeFreq(enum PCLBUZclock clock)" />
+          <PCLBUZ0 Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,DF1051_24,DF1052_24,DF1053_24,DF1054_24,DF1055_30,DF1056_30,DF1057_30,DF1058_30,DF1055_32,DF1056_32,DF1057_32,DF1058_32" InUse="">
+            <PCLBUZ0_Init UserName="PCLBUZ0_Init" LibName="PCLBUZn_Init" InUse="" Init="1" />
+            <PCLBUZ0_Start UserName="PCLBUZ0_Start" LibName="PCLBUZn_Start" InUse="" />
+            <PCLBUZ0_Stop UserName="PCLBUZ0_Stop" LibName="PCLBUZn_Stop" InUse="" />
+            <PCLBUZ0_ChangeFreq UserName="PCLBUZ0_ChangeFreq" LibName="PCLBUZn_ChangeFreq" InUse="" />
+          </PCLBUZ0>
+          <PCLBUZ1 Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4" InUse="">
+            <PCLBUZ1_Init UserName="PCLBUZ1_Init" LibName="PCLBUZn_Init" InUse="" Init="1" />
+            <PCLBUZ1_Start UserName="PCLBUZ1_Start" LibName="PCLBUZn_Start" InUse="" />
+            <PCLBUZ1_Stop UserName="PCLBUZ1_Stop" LibName="PCLBUZn_Stop" InUse="" />
+            <PCLBUZ1_ChangeFreq UserName="PCLBUZ1_ChangeFreq" LibName="PCLBUZn_ChangeFreq" InUse="" />
+          </PCLBUZ1>
+        </CG_pclbuz.c>
+        <CG_pclbuz_user.c UserName="CG_pclbuz_user.c" LibName="_user.c" InUse="">
+          <Type PCLBUZn_UserInit="void PCLBUZn_UserInit(void)	" />
+          <PCLBUZ0 Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,DF1051_24,DF1052_24,DF1053_24,DF1054_24,DF1055_30,DF1056_30,DF1057_30,DF1058_30,DF1055_32,DF1056_32,DF1057_32,DF1058_32" InUse="">
+            <PCLBUZ0_UserInit UserName="PCLBUZ0_UserInit" LibName="PCLBUZn_UserInit" InUse="" Init="1" />
+          </PCLBUZ0>
+          <PCLBUZ1 Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4" InUse="">
+            <PCLBUZ1_UserInit UserName="PCLBUZ1_UserInit" LibName="PCLBUZn_UserInit" InUse="" Init="1" />
+          </PCLBUZ1>
+        </CG_pclbuz_user.c>
+        <CG_pclbuz.h UserName="CG_pclbuz.h" LibName=".h" InUse="" />
+      </PCLBUZ>
+      <DMA>
+        <CG_dma.c UserName="CG_dma.c" LibName=".c" InUse="">
+          <Type DMAn_Init="void DMAn_Init(void)	" DMAn_Enable="void DMAn_Enable(void)" DMAn_Disable="void DMAn_Disable(void)" DMAn_Hold="void DMAn_Hold(void)" DMAn_Restart="void DMAn_Restart(void)" DMAn_CheckStatus="MD_STATUS DMAn_CheckStatus(void)" DMAn_SoftwareTriggerOn="void DMAn_SoftwareTriggerOn(void)" DMAn_SetData="MD_STATUS DMAn_SetData(UCHAR sfraddr, USHORT ramaddr, USHORT count)" />
+          <DMA0 InUse="">
+            <DMA0_Init UserName="DMA0_Init" LibName="DMAn_Init" InUse="" Init="1" />
+            <DMA0_Enable UserName="DMA0_Enable" LibName="DMAn_Enable" InUse="" />
+            <DMA0_Disable UserName="DMA0_Disable" LibName="DMAn_Disable" InUse="" />
+            <DMA0_Hold UserName="DMA0_Hold" LibName="DMAn_Hold" InUse="" />
+            <DMA0_Restart UserName="DMA0_Restart" LibName="DMAn_Restart" InUse="" />
+            <DMA0_CheckStatus UserName="DMA0_CheckStatus" LibName="DMAn_CheckStatus" InUse="" />
+            <DMA0_SoftwareTriggerOn UserName="DMA0_SoftwareTriggerOn" LibName="DMAn_SoftwareTriggerOn" InUse="" />
+            <DMA0_SetData UserName="DMA0_SetData" LibName="DMAn_SetData" InUse="" />
+          </DMA0>
+          <DMA1 InUse="">
+            <DMA1_Init UserName="DMA1_Init" LibName="DMAn_Init" InUse="" Init="1" />
+            <DMA1_Enable UserName="DMA1_Enable" LibName="DMAn_Enable" InUse="" />
+            <DMA1_Disable UserName="DMA1_Disable" LibName="DMAn_Disable" InUse="" />
+            <DMA1_Hold UserName="DMA1_Hold" LibName="DMAn_Hold" InUse="" />
+            <DMA1_Restart UserName="DMA1_Restart" LibName="DMAn_Restart" InUse="" />
+            <DMA1_CheckStatus UserName="DMA1_CheckStatus" LibName="DMAn_CheckStatus" InUse="" />
+            <DMA1_SoftwareTriggerOn UserName="DMA1_SoftwareTriggerOn" LibName="DMAn_SoftwareTriggerOn" InUse="" />
+            <DMA1_SetData UserName="DMA1_SetData" LibName="DMAn_SetData" InUse="" />
+          </DMA1>
+        </CG_dma.c>
+        <CG_dma_user.c UserName="CG_dma_user.c" LibName="_user.c" InUse="">
+          <Type DMAn_UserInit="void DMAn_UserInit(void)" MD_INTDMAn="__interrupt void MD_INTDMAn(void)" />
+          <DMA0>
+            <DMA0_UserInit UserName="DMA0_UserInit" LibName="DMAn_UserInit" InUse="" />
+            <MD_INTDMA0 UserName="MD_INTDMA0" INTHandle="" LibName="MD_INTDMAn" InUse="" />
+          </DMA0>
+          <DMA1>
+            <DMA1_UserInit UserName="DMA1_UserInit" LibName="DMAn_UserInit" InUse="" />
+            <MD_INTDMA1 UserName="MD_INTDMA1" INTHandle="" LibName="MD_INTDMAn" InUse="" />
+          </DMA1>
+        </CG_dma_user.c>
+        <CG_dma.h UserName="CG_dma.h" LibName=".h" InUse="" />
+      </DMA>
+      <LVD>
+        <CG_lvd.c UserName="CG_lvd.c" LibName=".c" InUse="">
+          <Type LVD_Init="void LVD_Init(void)" LVD_InterruptModeStart="void LVD_InterruptModeStart(void)" />
+          <LVD_Init UserName="LVD_Init" LibName="LVD_Init" InUse="" Init="1" />
+          <LVD_InterruptModeStart UserName="LVD_InterruptModeStart" LibName="LVD_InterruptModeStart" InUse="" />
+        </CG_lvd.c>
+        <CG_lvd_user.c UserName="CG_lvd_user.c" LibName="_user.c" InUse="">
+          <Type LVD_UserInit="void LVD_UserInit(void)" MD_INTLVI="__interrupt void MD_INTLVI(void)" />
+          <LVD_UserInit UserName="LVD_UserInit" LibName="LVD_UserInit" InUse="" />
+          <MD_INTLVI UserName="MD_INTLVI" INTHandle="" LibName="MD_INTLVI" InUse="" />
+        </CG_lvd_user.c>
+        <CG_lvd.h UserName="CG_lvd.h" LibName=".h" InUse="" />
+      </LVD>
+    </FUNC>
+    <TAG>
+      <GlobleUserTag>
+        <cg_security4 Name="cg_security4" Value="FF" />
+        <cg_security7 Name="cg_security7" Value="FF" />
+        <cg_security3 Name="cg_security3" Value="FF" />
+        <cg_iawctl_value Name="cg_iawctl_value" Value="00" />
+        <cg_security6 Name="cg_security6" Value="FF" />
+        <pior_value Name="pior_value" Value="00" />
+        <wdt_option Name="wdt_option" Value="FF" />
+        <lvi_option Name="lvi_option" Value="73" />
+        <cg_security5 Name="cg_security5" Value="FF" />
+        <cg_crc_area Name="cg_crc_area" Value="00" />
+        <clock_option Name="clock_option" Value="E8" />
+        <cg_security0 Name="cg_security0" Value="FF" />
+        <cg_security9 Name="cg_security9" Value="FF" />
+        <cg_security2 Name="cg_security2" Value="FF" />
+        <cg_security8 Name="cg_security8" Value="FF" />
+        <cg_option Name="cg_option" Value="04" />
+        <cg_security1 Name="cg_security1" Value="FF" />
+        <ocdstart Name="ocdstart" Value="0FE00" />
+      </GlobleUserTag>
+    </TAG>
+  </DIR>
+  <MACRO>
+    <System HelpID="system" Prepared="true" SetFlag="True" NeedRefresh="False">
+      <System SetFlag="True" MacroName="System" />
+    </System>
+    <PORT HelpID="port" SetFlag="False" NeedRefresh="False">
+      <PORT SlowMode="false" MacroName="PORT" SetFlag="False" />
+    </PORT>
+    <INT SetFlag="" HelpID="int" NeedRefresh="False">
+      <INTP Accelerate="No" MacroName="INTP" />
+      <KEY Chip="DF1059_40,DF1060_40,DF1061_40,DF1062_40,DF1059_44,DF1060_44,DF1061_44,DF1062_44,DF1059_48,DF1060_48,DF1061_48,DF1062_48,NEC78K0RKD4,NEC78K0RKE4" MacroName="KEY" />
+    </INT>
+    <Serial SetFlag="False" HelpID="serial" NeedRefresh="False">
+      <SAU0 Accelerate="No" Chip="NEC78K0RKE4" MacroName="SAU" Channel="0" SetFlag="False" TabEnable="True">
+        <Channel0 PIOR="default,timer" UART="0" CSI="00" IIC="00" Channel="0" />
+        <Channel1 UART="0" CSI="01" IIC="01" Channel="1" />
+        <Channel2 UART="1" CSI="10" IIC="10" Channel="2" />
+        <Channel3 UART="1" CSI="11" IIC="11" Channel="3" />
+      </SAU0>
+      <SAU1 Accelerate="No" Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" PIOR="default,timer" MacroName="SAU" Channel="1" TabEnable="True">
+        <Channel0 UART="2" CSI="20" IIC="20" Channel="0" />
+        <Channel1 Chip="NEC78K0RKD4,NEC78K0RKE4" UART="2" CSI="21" IIC="21" Channel="1" />
+      </SAU1>
+      <IICA0 Accelerate="No" Chip="DF1051_24,DF1052_24,DF1053_24,DF1054_24,UDF1051_25,DF1052_25,DF1053_25,DF1054_25,NEC78K0RKB4,NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4" MacroName="IICA" Channel="0" TabEnable="True" />
+    </Serial>
+    <AD SetFlag="" HelpID="ad" NeedRefresh="False">
+      <AD MacroName="AD" />
+    </AD>
+    <TAU SetFlag="false" HelpID="timer" NeedRefresh="False">
+      <TAU0 Accelerate="No" MacroName="TAU" Channel="0" ChannelNum="0,1,2,3,4,5,6,7" />
+    </TAU>
+    <WDT Prepared="true" SetFlag="true" HelpID="watchdogtimer" NeedRefresh="False">
+      <WDT SetFlag="true" MacroName="WDT" />
+    </WDT>
+    <RTC Chip="NEC78K0RKC4,NEC78K0RKD4,NEC78K0RKE4,DF1055_36,DF1056_36,DF1057_36,DF1058_36" SetFlag="" HelpID="rtc" NeedRefresh="False">
+      <RTC MacroName="RTC" />
+    </RTC>
+    <IT SetFlag="" HelpID="intervaltimer" NeedRefresh="False">
+      <IT MacroName="IntervalTM" />
+    </IT>
+    <PCLBUZ Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4,DF1051_24,DF1052_24,DF1053_24,DF1054_24" SetFlag="" HelpID="PCLBUZ" NeedRefresh="False">
+      <PCLBUZ0 MacroName="PCLBUZ" Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,DF1051_24,DF1052_24,DF1053_24,DF1054_24,DF1055_30,DF1056_30,DF1057_30,DF1058_30,DF1055_32,DF1056_32,DF1057_32,DF1058_32" Channel="0" />
+      <PCLBUZ1 MacroName="PCLBUZ" Chip="NEC78K0RKE4,NEC78K0RKD4,NEC78K0RKC4,NEC78K0RKB4" Channel="1" />
+    </PCLBUZ>
+    <DMA HelpID="dma" SetFlag="" NeedRefresh="False">
+      <DMA0 MacroName="DMA" Channel="0" />
+      <DMA1 MacroName="DMA" Channel="1" />
+    </DMA>
+    <LVD SetFlag="true" Prepared="true" HelpID="lvi" NeedRefresh="False">
+      <LVD MacroName="LVD" />
+    </LVD>
+  </MACRO>
+  <SETTING>
+    <System>
+      <setting name="PinAssignment" value="default pins" />
+      <setting name="VDD" value="VDD0" />
+      <setting name="Main_system_clock" value="high-speed internal clock" />
+      <setting name="High_speed_internal_oscillator" value="operation" />
+      <setting name="High_speed_internal_frequency" value="5" />
+      <setting name="High_speed_system_clock" value="stop" />
+      <setting name="High_speed_system_input" value="X1" />
+      <setting name="HighSpeedSystemStable" value="7" />
+      <setting name="High_speed_system_clock_frequency" value="5" />
+      <setting name="Sub_clock_operation" value="XT1" />
+      <setting name="SubclockFrequency" value="32.768" />
+      <setting name="XT1_oscillator_oscillation_mode" value="0" />
+      <setting name="SubClock" value="unused" />
+      <setting name="Subclock_in_halt" value="0" />
+      <setting name="CPU_clock" value="0" />
+      <setting name="Internal_low-speed_clock" value="15" />
+      <setting name="RTC_clcok_selection" value="0" />
+      <setting name="On_chip_debug" value="unused" />
+      <setting name="Erase_flash_memory" value="yes" />
+      <setting name="Security_ID_setting" value="used" />
+      <setting name="Security_ID" value="0xFFFFFFFFFFFFFFFFFFFF" />
+      <setting name="CG_ReadResetSource" value="generated" />
+      <setting name="CRCoperation" value="unused" />
+      <setting name="CRCArea" value="0" />
+      <setting name="Accessoperation" value="unused" />
+      <setting name="RAMoperation" value="unused" />
+      <setting name="RAMArea" value="0" />
+      <setting name="PORToperation" value="unused" />
+      <setting name="INToperation" value="unused" />
+      <setting name="CHIPoperation" value="unused" />
+    </System>
+    <WDT>
+      <setting name="Operation" value="used" />
+      <setting name="Overflow_time" value="7" />
+      <setting name="Window_opening_time" value="2" />
+      <setting name="Standby_operation" value="enable" />
+      <setting name="Interval_interrupt" value="use" />
+      <setting name="Interval_interrupt_priority" value="3" />
+    </WDT>
+    <LVD>
+      <setting name="Operation" value="used" />
+      <setting name="Reset_only_level" value="0" />
+      <setting name="InterruptReset_level" value="0" />
+      <setting name="Interrupt_level" value="0" />
+      <setting name="Interrupt_only_level" value="0" />
+      <setting name="operation_mode" value="reset" />
+      <setting name="Interrupt_priority" value="3" />
+      <setting name="Interrupt_only_priority" value="3" />
+    </LVD>
+    <SAU0>
+      <IIC00 />
+      <CSI00 />
+      <UART0 />
+      <Channel0>
+        <setting name="Channel_function_-i" value="0" />
+        <setting name="Detail_function_-i" value="-1" />
+      </Channel0>
+      <IIC01 />
+      <CSI01 />
+      <UART1 />
+      <Channel1>
+        <setting name="Channel_function_-i" value="0" />
+        <setting name="Detail_function_-i" value="-1" />
+      </Channel1>
+      <Channel2>
+        <setting name="Channel_function_-i" value="0" />
+        <setting name="Detail_function_-i" value="-1" />
+      </Channel2>
+      <Channel3>
+        <setting name="Channel_function_-i" value="0" />
+        <setting name="Detail_function_-i" value="-1" />
+      </Channel3>
+      <IIC10 />
+      <CSI10 />
+      <IIC11 />
+      <CSI11 />
+    </SAU0>
+    <SAU1>
+      <Channel0>
+        <setting name="Channel_function_-i" value="0" />
+        <setting name="Detail_function_-i" value="-1" />
+      </Channel0>
+      <Channel1>
+        <setting name="Channel_function_-i" value="0" />
+        <setting name="Detail_function_-i" value="-1" />
+      </Channel1>
+      <UART2 />
+      <IIC20 />
+      <CSI20 />
+      <IIC21 />
+      <CSI21 />
+    </SAU1>
+    <IICA0>
+      <setting name="Mode" value="Unused" />
+    </IICA0>
+    <PORT>
+      <PortP0>
+        <P00>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P00>
+        <P01>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P01>
+        <P02>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P02>
+        <P03>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P03>
+        <P04>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P04>
+        <P05>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P05>
+        <P06>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P06>
+      </PortP0>
+      <PortP1>
+        <P10>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P10>
+        <P11>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P11>
+        <P12>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P12>
+        <P13>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P13>
+        <P14>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P14>
+        <P15>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P15>
+        <P16>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P16>
+        <P17>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P17>
+      </PortP1>
+      <PortP2>
+        <P20>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P20>
+        <P21>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P21>
+        <P22>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P22>
+        <P23>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P23>
+        <P24>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P24>
+        <P25>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P25>
+        <P26>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P26>
+        <P27>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P27>
+      </PortP2>
+      <PortP3>
+        <P30>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P30>
+        <P31>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P31>
+      </PortP3>
+      <PortP4>
+        <P40>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P40>
+        <P41>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P41>
+        <P42>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P42>
+        <P43>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P43>
+      </PortP4>
+      <PortP5>
+        <P50>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P50>
+        <P51>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P51>
+        <P52>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P52>
+        <P53>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P53>
+        <P54>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P54>
+        <P55>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P55>
+      </PortP5>
+      <PortP6>
+        <P60>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P60>
+        <P61>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P61>
+        <P62>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P62>
+        <P63>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P63>
+      </PortP6>
+      <PortP7>
+        <P70>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P70>
+        <P71>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P71>
+        <P72>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P72>
+        <P73>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P73>
+        <P74>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P74>
+        <P75>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P75>
+        <P76>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P76>
+        <P77>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P77>
+      </PortP7>
+      <PortP12>
+        <P120>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P120>
+        <P121>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P121>
+        <P122>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P122>
+        <P123>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P123>
+        <P124>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P124>
+      </PortP12>
+      <PortP13>
+        <P130>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P130>
+        <P137>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P137>
+      </PortP13>
+      <PortP14>
+        <P140>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P140>
+        <P141>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P141>
+        <P146>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P146>
+        <P147>
+          <setting name="Operation" value="unused" />
+          <setting name="Pull_up" value="unused" />
+          <setting name="TTL_buffer" value="unused" />
+          <setting name="N-ch_open-drain" value="unused" />
+          <setting name="Output_value" value="0" />
+          <setting name="Change_IO" value="unused" />
+        </P147>
+      </PortP14>
+    </PORT>
+  </SETTING>
+</NEC78K0RKx4>

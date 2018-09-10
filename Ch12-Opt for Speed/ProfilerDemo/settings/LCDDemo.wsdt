@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>LCDDemo/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>344</Column0><Column1>38</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>886</ColumnWidth1><ColumnWidth2>796</ColumnWidth2><ColumnWidth3>51</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>376</ColumnWidth0><ColumnWidth1>53</ColumnWidth1><ColumnWidth2>645</ColumnWidth2></Find-in-Files>
+      <TerminalIO/>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-30093-18216</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>LCDDemo</ExpandedNode><ExpandedNode>LCDDemo/Output</ExpandedNode><ExpandedNode>LCDDemo/RTC</ExpandedNode><ExpandedNode>LCDDemo/RTC/rtc_sched.c</ExpandedNode><ExpandedNode>LCDDemo/applilet_src</ExpandedNode><ExpandedNode>LCDDemo/user_src</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16062-20731</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-6469-17618</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_include\Region.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>184</SelStart><SelEnd>184</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\profile.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>454</SelStart><SelEnd>454</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Glyph\Drivers\YRDKRL78_LCD.c</Filename><XPos>0</XPos><YPos>98</YPos><SelStart>5747</SelStart><SelEnd>5747</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug\List\LCDDemo.map</Filename><XPos>0</XPos><YPos>4448</YPos><SelStart>237986</SelStart><SelEnd>237986</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_it.c</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>3361</SelStart><SelEnd>3361</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\RDKRL78_spi.c</Filename><XPos>0</XPos><YPos>27</YPos><SelStart>1449</SelStart><SelEnd>1449</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RTC\rtc_sched.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1170</SelStart><SelEnd>1170</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\region.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>95</SelStart><SelEnd>95</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\lcd.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>3251</SelStart><SelEnd>3251</SelEnd></Tab><ActiveTab>8</ActiveTab></Pane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RTC\rtc_sched.c</Filename><XPos>0</XPos><YPos>149</YPos><SelStart>5137</SelStart><SelEnd>5137</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_it_user.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1050</SelStart><SelEnd>1050</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_main.c</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>3943</SelStart><SelEnd>3943</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\tasks.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>84</SelStart><SelEnd>84</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_timer_user.c</Filename><XPos>0</XPos><YPos>43</YPos><SelStart>3306</SelStart><SelEnd>3306</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_timer.c</Filename><XPos>0</XPos><YPos>47</YPos><SelStart>3807</SelStart><SelEnd>3807</SelEnd></Tab><ActiveTab>5</ActiveTab></Pane><ActivePane>1</ActivePane><Sizes><Pane><X>368383</X><Y>1000000</Y></Pane><Pane><X>631616</X><Y>1000000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-02b85068><key>iaridepm.enu1</key></Toolbar-02b85068></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6><Row7><Sizes/></Row7></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>762</Bottom><Right>429</Right><x>-2</x><y>-2</y><xscreen>182</xscreen><yscreen>70</yscreen><sizeHorzCX>94792</sizeHorzCX><sizeHorzCY>70140</sizeHorzCY><sizeVertCX>224479</sizeVertCX><sizeVertCY>717435</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>191</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>193</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>193387</sizeHorzCY><sizeVertCX>94792</sizeVertCX><sizeVertCY>70140</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

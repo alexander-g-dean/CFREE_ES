@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>ADCDemo2/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>179</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>753</ColumnWidth1><ColumnWidth2>201</ColumnWidth2><ColumnWidth3>50</ColumnWidth3></Build>
+      <TerminalIO/>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20190-11262</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>ADCDemo2</ExpandedNode><ExpandedNode>ADCDemo2/Glyph</ExpandedNode><ExpandedNode>ADCDemo2/Glyph/Drivers</ExpandedNode><ExpandedNode>ADCDemo2/Output</ExpandedNode><ExpandedNode>ADCDemo2/Output/ADCDemo2.d87</ExpandedNode><ExpandedNode>ADCDemo2/Output/ADCDemo2.d87/Output</ExpandedNode><ExpandedNode>ADCDemo2/applilet_src</ExpandedNode><ExpandedNode>ADCDemo2/user_src</ExpandedNode><ExpandedNode>ADCDemo2/user_src/lcd.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-29434-16820</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_intc_user.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_main.c</Filename><XPos>0</XPos><YPos>48</YPos><SelStart>4232</SelStart><SelEnd>4232</SelEnd></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_serial_user.c</Filename><XPos>0</XPos><YPos>139</YPos><SelStart>6879</SelStart><SelEnd>6879</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_adc.c</Filename><XPos>0</XPos><YPos>36</YPos><SelStart>5496</SelStart><SelEnd>5517</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_adc_user.c</Filename><XPos>0</XPos><YPos>24</YPos><SelStart>3678</SelStart><SelEnd>3678</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\RDKRL78_spi.c</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>1333</SelStart><SelEnd>1333</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug\List\ADCDemo2.html</Filename></Tab></Pane><ActivePane>0</ActivePane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\lcd.c</Filename><XPos>0</XPos><YPos>165</YPos><SelStart>4334</SelStart><SelEnd>4334</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_userdefine.h</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>2637</SelStart><SelEnd>2637</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_include\lcd.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>387</SelStart><SelEnd>387</SelEnd></Tab><ActiveTab>2</ActiveTab></Pane><Sizes><Pane><X>500000</X><Y>500000</Y></Pane><Pane><X>500000</X><Y>500000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-029de648><key>iaridepm.enu1</key></Toolbar-029de648></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>786</Bottom><Right>270</Right><x>-2</x><y>-2</y><xscreen>197</xscreen><yscreen>169</yscreen><sizeHorzCX>102604</sizeHorzCX><sizeHorzCY>169339</sizeHorzCY><sizeVertCX>141667</sizeVertCX><sizeVertCY>789579</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>167</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>169</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>169339</sizeHorzCY><sizeVertCX>102604</sizeVertCX><sizeVertCY>169339</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

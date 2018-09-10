@@ -1,0 +1,258 @@
+========== RL78 Start Logging =====
+Mon Aug 06 11:37:27 2012
+===================================
+========== ex_boardinfo2 ==========
+exec_infoname: RL78 E1 Executor, exec_version: E1.61c, df_chipname: , df_fileversion: 
+Boardinfo: 00008004, product id: 4100 version: A, firmware version: 07.11 
+Port name 1: TOOL0, support_chk: 00000000
+===================================
+========== ex_getenv ==============
+pack_info: "",  miro_info: "",  exec_info: "RL78 E1 Executor E1.61c [ 7 Mar 2012]",  moni_info: "",  flash_info: ""
+trcmem_size: 0x00000000, btrcmem_size:     0x0000,     prt_num:     0x0000,      rprm_size:     0x0000,       seq_num: 0x0000,    pass_num: 0x0000,      snap_num: 0x0000, stub_num: 0x0000
+  swdmm_num:     0x0000,      evn_num:       0x01,  busevn_num:       0x01,   fetchevn_num:       0x01,    brdevn_num:   0x00,   timer_num:   0x00,      brk_mode:   0x01,  em1_chk:   0x00, exec_chk: 0x00
+ dmrom_addr: 0x00000000,   dmrom_size: 0x00000000, opboard_chk: 0x00000000, extsupport_chk: 0x00802200, beforebrk_num: 0x0000, emumem_size: 0x0000, trcbusevn_num:   0x00
+===================================
+========== ex_boardinfo2 ==========
+exec_infoname: RL78 E1 Executor, exec_version: E1.61c, df_chipname: , df_fileversion: 
+Boardinfo: 00008004, product id: 4100 version: A, firmware version: 07.11 
+Port name 1: TOOL0, support_chk: 00000000
+===================================
+========== ex_boardinfo2 ==========
+exec_infoname: RL78 E1 Executor, exec_version: E1.61c, df_chipname: , df_fileversion: 
+Boardinfo: 00008004, product id: 4100 version: A, firmware version: 07.11 
+Port name 1: TOOL0, support_chk: 00000000
+===================================
+========== ex_getenv ==============
+pack_info: "",  miro_info: "",  exec_info: "RL78 E1 Executor E1.61c [ 7 Mar 2012]",  moni_info: "",  flash_info: ""
+trcmem_size: 0x00000000, btrcmem_size:     0x0000,     prt_num:     0x0000,      rprm_size:     0x0000,       seq_num: 0x0000,    pass_num: 0x0000,      snap_num: 0x0000, stub_num: 0x0000
+  swdmm_num:     0x0000,      evn_num:       0x01,  busevn_num:       0x01,   fetchevn_num:       0x01,    brdevn_num:   0x00,   timer_num:   0x00,      brk_mode:   0x01,  em1_chk:   0x00, exec_chk: 0x00
+ dmrom_addr: 0x00000000,   dmrom_size: 0x00000000, opboard_chk: 0x00000000, extsupport_chk: 0x00802200, beforebrk_num: 0x0000, emumem_size: 0x0000, trcbusevn_num:   0x00
+===================================
+========== ex_initexec ============
+Hostname: xxx
+Portno: 0001
+exec_name: , vdd: 01, clk: 00, flash: 10
+pin: 00, mask: 00, sel: 00, pbrk: 00
+devfile: C:\PROGRA~2\IARSYS~1\EMBEDD~1.0\rl78\config\renesas\devicefiles\DR5F100LE.DVF
+hWnd: 0x00000000, hAccTable: 0x00000000
+data_num: 17
+reg_inf: RP0:  52 50 30 00 00 00 00 00 08 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 
+reg_inf: RP1:  52 50 31 00 00 00 00 00 09 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 
+reg_inf: RP2:  52 50 32 00 00 00 00 00 0a 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 
+reg_inf: RP3:  52 50 33 00 00 00 00 00 0b 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 
+reg_inf: R0 :  52 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+reg_inf: R1 :  52 31 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+reg_inf: R2 :  52 32 00 00 00 00 00 00 02 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+reg_inf: R3 :  52 33 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+reg_inf: R4 :  52 34 00 00 00 00 00 00 04 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+reg_inf: R5 :  52 35 00 00 00 00 00 00 05 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+reg_inf: R6 :  52 36 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+reg_inf: R7 :  52 37 00 00 00 00 00 00 07 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+reg_inf: PC :  50 43 00 00 00 00 00 00 0e 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 
+reg_inf: SP :  53 50 00 00 00 00 00 00 0d 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 
+reg_inf: PSW:  50 53 57 00 00 00 00 00 0f 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+reg_inf: ES :  45 53 00 00 00 00 00 00 12 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+reg_inf: CS :  43 53 00 00 00 00 00 00 11 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+===================================
+========== ex_socunitinfo2 ========
+EX_SET, EX_UNIT_FLPGOPT, num: 1
+unit_info[0]: 0x00000004
+===================================
+========== ex_boardinfo2 ==========
+exec_infoname: RL78 E1 Executor, exec_version: E1.61c, df_chipname: R5F100LE(f100le), df_fileversion: V1.12
+Boardinfo: 00008004, product id: 4100 version: A, firmware version: 07.11 
+Port name 1: TOOL0, support_chk: 00000000
+===================================
+========== ex_getenv ==============
+pack_info: "",  miro_info: "",  exec_info: "RL78 E1 Executor E1.61c [ 7 Mar 2012]",  moni_info: "",  flash_info: ""
+trcmem_size: 0x00000000, btrcmem_size:     0x0000,     prt_num:     0x0000,      rprm_size:     0x0000,       seq_num: 0x0000,    pass_num: 0x0000,      snap_num: 0x0000, stub_num: 0x0000
+  swdmm_num:     0x0000,      evn_num:       0x01,  busevn_num:       0x01,   fetchevn_num:       0x01,    brdevn_num:   0x00,   timer_num:   0x00,      brk_mode:   0x01,  em1_chk:   0x00, exec_chk: 0x00
+ dmrom_addr: 0x00000000,   dmrom_size: 0x00000000, opboard_chk: 0x00000000, extsupport_chk: 0x00802200, beforebrk_num: 0x0000, emumem_size: 0x0000, trcbusevn_num:   0x00
+===================================
+========== ex_socunitinfo2 ========
+EX_SET, EX_UNIT_RSU, num: 5
+unit_info[0]: 0x00000000
+unit_info[1]: 0x00000000
+unit_info[2]: 0x00000000
+unit_info[3]: 0x00000000
+unit_info[4]: 0x00000001
+===================================
+========== ex_pincont =============
+EX_SET, mask_fg: 0x00000000, sel_fg: 0x00000000
+===================================
+========== ex_socunitinfo2 ========
+EX_SET, EX_UNIT_ICEFUNCTION, num: 1
+unit_info[0]: 0x00000000
+===================================
+========== ex_socunitinfo2 ========
+EX_SET, EX_UNIT_CG, num: 4
+unit_info[0]: 0x00000000
+unit_info[1]: 0x00004E20
+unit_info[2]: 0x00008000
+unit_info[3]: 0x00000000
+===================================
+========== ex_getenv ==============
+pack_info: "",  miro_info: "OCD Control Code V3.03",  exec_info: "RL78 E1 Executor E1.61c [ 7 Mar 2012]",  moni_info: "",  flash_info: ""
+trcmem_size: 0x00000000, btrcmem_size:     0x0000,     prt_num:     0x0000,      rprm_size:     0x0000,       seq_num: 0x0000,    pass_num: 0x0000,      snap_num: 0x0000, stub_num: 0x0000
+  swdmm_num:     0x0000,      evn_num:       0x01,  busevn_num:       0x01,   fetchevn_num:       0x01,    brdevn_num:   0x00,   timer_num:   0x00,      brk_mode:   0x01,  em1_chk:   0x00, exec_chk: 0x00
+ dmrom_addr: 0x00000000,   dmrom_size: 0x00000000, opboard_chk: 0x00000000, extsupport_chk: 0x00802200, beforebrk_num: 0x0000, emumem_size: 0x0000, trcbusevn_num:   0x00
+===================================
+========== ex_boardinfo2 ==========
+exec_infoname: RL78 E1 Executor, exec_version: E1.61c, df_chipname: R5F100LE(f100le), df_fileversion: V1.12
+Boardinfo: 00008004, product id: 4100 version: A, firmware version: 07.11 
+Port name 1: TOOL0, support_chk: 00000000
+===================================
+========== ex_initimem2 ===========
+EX_SET, rom_size:  0x00010000
+brom_size: 0x00000000
+ram_size:  0x00001000
+xram_size: 0x00000000
+===================================
+========== ex_setenv ==============
+EX_REF, trcmem_size: 0x00000000, pev_mode: 3, flsafe_sw: 0x00000000
+btrcmem_size: 0x00000000, brkmem_sw: 0x00000000, brk_mode: 1, trcp_bksw: 0x00000000
+===================================
+========== ex_setenv ==============
+EX_SET, trcmem_size: 0x00000000, pev_mode: 3, flsafe_sw: 0x00000000
+btrcmem_size: 0x00000000, brkmem_sw: 0x00000000, brk_mode: 1, trcp_bksw: 0x00000000
+===================================
+========== ex_memwrite ============
+addr_1: 0x00002800, addr_2: 0x5800FE4C, count: 0x0200, EX_M_FLASH_PV_WR, EX_DATA_SIZE_4, EX_VER_OFF
+data: 0x14 0x14 0x17 0x17 0x10 0x17 0x17 0x14 0x08 0x08 0x14 0x14 0xF4 0xF4 0x04 0xF4 0xF4 0x14 0x08 0x08 ...
+(number: 0x7300FE4D, error_fg: 0x00, direct: 0x0000)
+===================================
+========== ex_memwrite ============
+addr_1: 0x00000000, addr_2: 0x5800FE4C, count: 0x0200, EX_M_FLASH_PV_WR, EX_DATA_SIZE_4, EX_VER_OFF
+data: 0xDD 0x00 0xFF 0xFF 0xEF 0x34 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0x75 0x2E 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF ...
+(number: 0x7300FE4D, error_fg: 0x00, direct: 0x0000)
+===================================
+========== ex_memwrite ============
+addr_1: 0x00005800, addr_2: 0x5800FE4C, count: 0x0200, EX_M_FLASH_PV_WR, EX_DATA_SIZE_4, EX_VER_OFF
+data: 0x8A 0x2C 0x92 0x2C 0x9A 0x2C 0xA2 0x2C 0xAA 0x2C 0xB2 0x2C 0xBA 0x2C 0xC2 0x2C 0xCA 0x2C 0xD2 0x2C ...
+(number: 0x7300FE4D, error_fg: 0x00, direct: 0x0000)
+===================================
+========== ex_memwrite ============
+addr_1: 0x00002000, addr_2: 0x5800FE4C, count: 0x0200, EX_M_FLASH_PV_WR, EX_DATA_SIZE_4, EX_VER_OFF
+data: 0x58 0x3A 0x20 0x25 0x35 0x64 0x00 0x00 0x59 0x3A 0x20 0x25 0x35 0x64 0x00 0x00 0x5A 0x3A 0x20 0x25 ...
+(number: 0x7300FE4D, error_fg: 0x00, direct: 0x0000)
+===================================
+========== ex_memwrite ============
+addr_1: 0x00003000, addr_2: 0x5800FE4C, count: 0x0200, EX_M_FLASH_PV_WR, EX_DATA_SIZE_4, EX_VER_OFF
+data: 0x36 0x24 0x01 0x71 0xA2 0x71 0x0A 0xE6 0x71 0x0B 0xE2 0x71 0x0A 0xEE 0x71 0x0A 0xEA 0x30 0x07 0x00 ...
+(number: 0x7300FE4D, error_fg: 0x00, direct: 0x0000)
+===================================
+========== ex_memwrite ============
+addr_1: 0x00005000, addr_2: 0x5800FE4C, count: 0x0200, EX_M_FLASH_PV_WR, EX_DATA_SIZE_4, EX_VER_OFF
+data: 0xAE 0xF8 0xFD 0x9E 0x52 0x31 0xA3 0x15 0x30 0x20 0x00 0xC1 0xA8 0x1C 0x14 0xDB 0xF8 0xFF 0xA3 0xA3 ...
+(number: 0x7300FE4D, error_fg: 0x00, direct: 0x0000)
+===================================
+========== ex_memwrite ============
+addr_1: 0x00003800, addr_2: 0x5800FE4C, count: 0x0200, EX_M_FLASH_PV_WR, EX_DATA_SIZE_4, EX_VER_OFF
+data: 0xAE 0xF8 0x04 0x06 0x00 0x16 0xAC 0x02 0x12 0xAB 0x04 0x01 0x00 0x61 0xD8 0xA3 0x33 0x04 0x00 0x00 ...
+(number: 0x7300FE4D, error_fg: 0x00, direct: 0x0000)
+===================================
+========== ex_memwrite ============
+addr_1: 0x00004000, addr_2: 0x5800FE4C, count: 0x0200, EX_M_FLASH_PV_WR, EX_DATA_SIZE_4, EX_VER_OFF
+data: 0xC1 0xA8 0x0C 0x12 0xA8 0x0A 0xFD 0xCF 0x01 0xDE 0x3E 0xA8 0x0C 0x16 0x8B 0x7C 0xFF 0x73 0xA8 0x00 ...
+(number: 0x7300FE4D, error_fg: 0x00, direct: 0x0000)
+===================================
+========== ex_memwrite ============
+addr_1: 0x00004800, addr_2: 0x5800FE4C, count: 0x0200, (EX_M_FLASH_PV_WR | EX_M_FLASH_END_WR), EX_DATA_SIZE_4, EX_VER_OFF
+data: 0x02 0x35 0xCE 0xFC 0x00 0x61 0xEA 0x88 0x00 0x37 0xA8 0x0C 0x37 0x35 0xAC 0x02 0x35 0xC5 0xC6 0x35 ...
+(number: 0x7300FE4D, error_fg: 0x00, direct: 0x0000)
+===================================
+========== ex_memread =============
+addr_1: 0x000000C4, number: 0x0000000A, EX_BREAK_RD, EX_DATA_SIZE_1
+data: 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 ...
+(addr_2: 0x3AFFFFFF, count: 0x8C00, verify_fg: 0xC6E8, error_fg: 0x00, direct: 0x2E2B)
+===================================
+========== ex_reset ===============
+EX_RESET
+===================================
+========== ex_swbrkcond ===========
+EX_SET, num: 0x0001, sbno: 0x0001, sberr: 0x0000, sbaddr: 0x00002EB6, sbdata: 0xC3 0x00
+===================================
+========== ex_swbrkcond ===========
+EX_SET, num: 0x0001, sbno: 0x0002, sberr: 0x0000, sbaddr: 0x00004C3D, sbdata: 0xD7 0x00
+===================================
+========== ex_covsw ===============
+EX_COV_SW_OFF
+*************************************************************
+**  ERROR  **  0x0002  **  This feature is not supported.  **
+*************************************************************
+===================================
+========== ex_regread =============
+EX_ER_OFF_REG_READ, num: 1, reg_char: 0x0200, data: 0x000000DD
+===================================
+========== ex_rrmmapping ==========
+EX_REF, rrm_num: 0
+===================================
+========== ex_run =================
+EX_BRK_ST, saddr: 0x00000000, eaddr: 0x00000000
+===================================
+========== ex_getstatus ===========
+cpustat: 0x00000000, exestat: 0x00000000, hwbrfact: 0x00200000, pc_value: 0x00002EB6
+===================================
+========== ex_getstatus ===========
+cpustat: 0x00000000, exestat: 0x00000000, hwbrfact: 0x00200000, pc_value: 0x00002EB6
+===================================
+========== ex_timeread2 ===========
+timer_no: 0, clock_unit: 100000
+(0), count: 1, timer_total: 7
+timer_max: 7, timer_min: 7
+===================================
+========== ex_regread =============
+EX_ER_OFF_REG_READ, num: 1, reg_char: 0x0200, data: 0x00002EB6
+===================================
+========== ex_swbrkcond ===========
+EX_DEL, num: 0x0001, sbno: 0x0001, sberr: 0x0000, sbaddr: 0x00002EB6, sbdata: 0x20 0x7E
+===================================
+========== ex_regread =============
+EX_ER_OFF_REG_READ, num: 1, reg_char: 0x0201, data: 0x000FF734
+===================================
+========== ex_memread =============
+addr_1: 0x000FF700, number: 0x00000080, EX_BREAK_RD, EX_DATA_SIZE_1
+data: 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD ...
+(addr_2: 0x20000000, count: 0x0300, verify_fg: 0x0000, error_fg: 0x00, direct: 0x4EFA)
+===================================
+========== ex_run =================
+EX_BRK_ST, saddr: 0x00000000, eaddr: 0x00000000
+===================================
+========== ex_getstatus ===========
+cpustat: 0x00000000, exestat: 0x00000001, hwbrfact: 0x00000000, pc_value: 0xFFFFFFFF
+===================================
+========== ex_stop ================
+===================================
+========== ex_getstatus ===========
+cpustat: 0x00000000, exestat: 0x00000000, hwbrfact: 0x00800000, pc_value: 0x000035A9
+===================================
+========== ex_timeread2 ===========
+timer_no: 0, clock_unit: 100000
+(0), count: 1, timer_total: 449277
+timer_max: 449277, timer_min: 449277
+===================================
+========== ex_regread =============
+EX_ER_OFF_REG_READ, num: 1, reg_char: 0x0200, data: 0x000035A9
+===================================
+========== ex_regread =============
+EX_ER_OFF_REG_READ, num: 1, reg_char: 0x0201, data: 0x000FF62A
+===================================
+========== ex_memread =============
+addr_1: 0x000FF600, number: 0x00000080, EX_BREAK_RD, EX_DATA_SIZE_1
+data: 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD 0xCD ...
+(addr_2: 0x20000000, count: 0x0300, verify_fg: 0x0000, error_fg: 0x00, direct: 0x4EFA)
+===================================
+========== ex_memread =============
+addr_1: 0x000FF300, number: 0x00000080, EX_BREAK_RD, EX_DATA_SIZE_1
+data: 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x68 0x6A 0x6C 0x74 0x7A 0x4C 0x00 0x00 ...
+(addr_2: 0x1400C6D7, count: 0x0100, verify_fg: 0x0000, error_fg: 0x00, direct: 0x4EFA)
+===================================
+========== ex_swbrkcond ===========
+EX_DEL, num: 0x0001, sbno: 0x0002, sberr: 0x0000, sbaddr: 0x00004C3D, sbdata: 0x90 0x7D
+===================================
+========== ex_exit ================
+EX_END_PROC
+===================================
+========== Stop Logging ===========
+Mon Aug 06 11:39:25 2012
+========== End of file ============

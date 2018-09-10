@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3162302323</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_intc.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_cgc.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_cgc_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_intc_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_it.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_it_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_port.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_port_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_serial.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_serial_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_main.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_systeminit.c</file>
+      <file>$PROJ_DIR$\Glyph\Drivers\ST7579_LCD.c</file>
+      <file>$PROJ_DIR$\Glyph\Drivers\YRDKRL78_LCD.c</file>
+      <file>$PROJ_DIR$\Glyph\Fonts\bitmap_font.c</file>
+      <file>$PROJ_DIR$\Glyph\Fonts\font_8x16.c</file>
+      <file>$PROJ_DIR$\Glyph\Fonts\font_helvr10.c</file>
+      <file>$PROJ_DIR$\Glyph\Fonts\font_8x8.c</file>
+      <file>$PROJ_DIR$\Glyph\Fonts\font_logos.c</file>
+      <file>$PROJ_DIR$\Glyph\Fonts\font_winfreesystem14x16.c</file>
+      <file>$PROJ_DIR$\Glyph\Fonts\font_x5x7.c</file>
+      <file>$PROJ_DIR$\Glyph\Fonts\font_x6x13.c</file>
+      <file>$PROJ_DIR$\Glyph\glyph.c</file>
+      <file>$PROJ_DIR$\Glyph\glyph_register.c</file>
+      <file>$PROJ_DIR$\user_src\lcd.c</file>
+      <file>$PROJ_DIR$\user_src\RDKRL78_spi.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_8x16.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_8x8.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_helvr10.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_logos.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_winfreesystem14x16.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_x5x7.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\bitmap_font.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_x6x13.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\RDKRL78_spi.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_winfreesystem14x16.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_logos.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_helvr10.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_8x8.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_8x16.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\RDKRL78_spi.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Glyph\glyph_cfg.h</file>
+      <file>$PROJ_DIR$\Glyph\glyph_types.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Glyph\glyph_api.h</file>
+      <file>$PROJ_DIR$\Glyph\Drivers\YRDKRL78_LCD.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Glyph\Drivers\ST7579_LCD.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_intc.r87</file>
+      <file>$PROJ_DIR$\Debug\List\ST7579_LCD.s87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_it_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_cgc_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_x6x13.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\font_x5x7.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\LCDDemo.html</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_it.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_intc_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_cgc.r87</file>
+      <file>$TOOLKIT_DIR$\lib\dlrl78nn1n.r87</file>
+      <file>$PROJ_DIR$\user_include\RDKRL78_spi.h</file>
+      <file>$PROJ_DIR$\user_include\ior5f100le.h</file>
+      <file>$PROJ_DIR$\user_include\lcd.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkr5f100le.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_serial.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_port.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_port_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_serial_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_main.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_systeminit.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_cgc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_cgc_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_intc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_intc_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_it.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_it_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_port.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_port_user.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_serial_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_serial.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\YRDKRL78_LCD.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ST7579_LCD.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LCDDemo.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\LCDDemo.d87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_systeminit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ST7579_LCD.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\YRDKRL78_LCD.r87</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_macrodriver.h</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_cgc.h</file>
+      <file>$TOOLKIT_DIR$\inc\ior5f100le_ext.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_userdefine.h</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_intc.h</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_it.h</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_port.h</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_serial.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\glyph.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\glyph.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\glyph_register.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\glyph_register.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlrl78nn1n.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bitmap_font.r87</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_intc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 108 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_cgc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 104 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 104 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_cgc_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 104 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 104 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_intc_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106 108 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 108 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106 109 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 109 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_it_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106 109 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 109 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106 110 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 110 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_port_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106 110 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 110 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_serial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106 111 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 111 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_serial_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106 111 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 111 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106 104 110 108 111 109 74 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 104 110 108 111 109 74 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_systeminit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106 104 110 108 111 109 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 104 110 108 111 109 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\Drivers\ST7579_LCD.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 62 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 57 51 52 103 73 105 106 74</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 60 57 51 52 103 73 105 106 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\Drivers\YRDKRL78_LCD.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106 111 58 57 51 52 72</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106 111 58 57 51 52 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\Fonts\bitmap_font.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 73 105 106</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 103 73 105 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\Fonts\font_8x16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\Fonts\font_helvr10.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\Fonts\font_8x8.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\Fonts\font_logos.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\Fonts\font_winfreesystem14x16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\Fonts\font_x5x7.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\Fonts\font_x6x13.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 51 52 103 73 105 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\glyph.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 41 43 44 45 47 46 49 48 50 51 52 103 73 105 106 57</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 42 41 43 44 116 45 47 46 49 48 50 51 52 103 73 105 106 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Glyph\glyph_register.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 51 52 103 73 105 106 60 58</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 57 51 52 103 73 105 106 60 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user_src\lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 41 43 44 45 47 46 49 42 48 55 92 90 91 57 51 52 103 73 105 106 60 74 107</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 56 41 43 44 116 45 47 46 49 42 48 55 92 90 91 57 51 52 103 73 105 106 60 74 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user_src\RDKRL78_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 103 73 105 106 107 111 109 72</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 59 103 73 105 106 107 111 109 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 98 67</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\LCDDemo.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 40 96 95 32 39 38 37 36 35 66 65 113 115 54 82 83 84 85 86 87 88 89 94 93 100 99</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\LCDDemo.d87</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 75 34 101 102 117 26 27 28 29 30 31 33 112 114 53 70 64 61 69 68 63 77 78 76 79 80 81 71</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

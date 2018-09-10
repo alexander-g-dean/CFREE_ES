@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>LCDDemo/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>42</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>886</ColumnWidth1><ColumnWidth2>796</ColumnWidth2><ColumnWidth3>51</ColumnWidth3></Build>
+      <Find-in-Files>
+        <ColumnWidth0>376</ColumnWidth0>
+        <ColumnWidth1>53</ColumnWidth1>
+        <ColumnWidth2>645</ColumnWidth2>
+      </Find-in-Files>
+      <TerminalIO/>
+    <Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1861</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-30093-18216</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>LCDDemo</ExpandedNode><ExpandedNode>LCDDemo/Glyph</ExpandedNode><ExpandedNode>LCDDemo/Glyph/Drivers</ExpandedNode><ExpandedNode>LCDDemo/Output</ExpandedNode><ExpandedNode>LCDDemo/Output/LCDDemo.d87</ExpandedNode><ExpandedNode>LCDDemo/Output/LCDDemo.d87/Output</ExpandedNode><ExpandedNode>LCDDemo/applilet_src</ExpandedNode><ExpandedNode>LCDDemo/applilet_src/r_cg_serial_user.c</ExpandedNode><ExpandedNode>LCDDemo/user_src</ExpandedNode><ExpandedNode>LCDDemo/user_src/lcd.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16062-20731</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-6469-17618</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-4347-7802</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Glyph\glyph_cfg.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1259</SelStart><SelEnd>1259</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\RDKRL78_spi.c</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>1449</SelStart><SelEnd>1449</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_serial.h</Filename><XPos>0</XPos><YPos>358</YPos><SelStart>22342</SelStart><SelEnd>22342</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_adc_user.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>2416</SelStart><SelEnd>2416</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_include\lcd.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_main.c</Filename><XPos>0</XPos><YPos>52</YPos><SelStart>3963</SelStart><SelEnd>3963</SelEnd></Tab><ActiveTab>5</ActiveTab></Pane><ActivePane>0</ActivePane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\lcd.c</Filename><XPos>0</XPos><YPos>72</YPos><SelStart>4172</SelStart><SelEnd>4203</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Glyph\glyph.c</Filename><XPos>0</XPos><YPos>41</YPos><SelStart>4277</SelStart><SelEnd>4277</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_serial.c</Filename><XPos>0</XPos><YPos>171</YPos><SelStart>9190</SelStart><SelEnd>9190</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_serial_user.c</Filename><XPos>0</XPos><YPos>57</YPos><SelStart>5336</SelStart><SelEnd>5336</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_adc.c</Filename><XPos>0</XPos><YPos>72</YPos><SelStart>4516</SelStart><SelEnd>4527</SelEnd></Tab><ActiveTab>4</ActiveTab></Pane><Sizes><Pane><X>430581</X><Y>1000000</Y></Pane><Pane><X>569418</X><Y>1000000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0385f830><key>iaridepm.enu1</key></Toolbar-0385f830></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6><Row7><Sizes/></Row7><Row8><Sizes/></Row8><Row9><Sizes/></Row9><Row10><Sizes/></Row10><Row11><Sizes/></Row11><Row12><Sizes/></Row12><Row13><Sizes/></Row13><Row14><Sizes/></Row14><Row15><Sizes/></Row15><Row16><Sizes/></Row16><Row17><Sizes/></Row17><Row18><Sizes/></Row18><Row19><Sizes/></Row19><Row20><Sizes/></Row20><Row21><Sizes/></Row21><Row22><Sizes/></Row22><Row23><Sizes/></Row23><Row24><Sizes/></Row24><Row25><Sizes/></Row25><Row26><Sizes/></Row26><Row27><Sizes/></Row27><Row28><Sizes/></Row28><Row29><Sizes/></Row29><Row30><Sizes/></Row30><Row31><Sizes/></Row31><Row32><Sizes/></Row32><Row33><Sizes/></Row33><Row34><Sizes/></Row34><Row35><Sizes/></Row35><Row36><Sizes/></Row36><Row37><Sizes/></Row37><Row38><Sizes/></Row38><Row39><Sizes/></Row39><Row40><Sizes/></Row40><Row41><Sizes/></Row41><Row42><Sizes/></Row42><Row43><Sizes/></Row43><Row44><Sizes/></Row44><Row45><Sizes/></Row45><Row46><Sizes/></Row46><Row47><Sizes/></Row47><Row48><Sizes/></Row48><Row49><Sizes/></Row49><Row50><Sizes/></Row50><Row51><Sizes/></Row51><Row52><Sizes/></Row52><Row53><Sizes/></Row53><Row54><Sizes/></Row54><Row55><Sizes/></Row55><Row56><Sizes/></Row56><Row57><Sizes/></Row57></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>467</Bottom><Right>133</Right><x>-2</x><y>-2</y><xscreen>85</xscreen><yscreen>83</yscreen><sizeHorzCX>84325</sizeHorzCX><sizeHorzCY>123881</sizeHorzCY><sizeVertCX>133929</sizeVertCX><sizeVertCY>700000</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>158</Bottom><Right>1010</Right><x>-2</x><y>-2</y><xscreen>1012</xscreen><yscreen>160</yscreen><sizeHorzCX>1003968</sizeHorzCX><sizeHorzCY>238806</sizeHorzCY><sizeVertCX>84325</sizeVertCX><sizeVertCY>123881</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>LCDDemo/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>244</Column0><Column1>38</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>886</ColumnWidth1><ColumnWidth2>796</ColumnWidth2><ColumnWidth3>51</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>376</ColumnWidth0><ColumnWidth1>53</ColumnWidth1><ColumnWidth2>645</ColumnWidth2></Find-in-Files>
+      <TerminalIO/>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-30093-18216</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>LCDDemo</ExpandedNode><ExpandedNode>LCDDemo/Output</ExpandedNode><ExpandedNode>LCDDemo/applilet_src</ExpandedNode><ExpandedNode>LCDDemo/user_src</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16062-20731</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-6469-17618</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\RDKRL78_spi.c</Filename><XPos>0</XPos><YPos>27</YPos><SelStart>1250</SelStart><SelEnd>1250</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RTC\rtc_sched.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>362</SelStart><SelEnd>362</SelEnd></Tab><ActiveTab>1</ActiveTab></Pane><ActivePane>0</ActivePane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RTC\rtc_sched.c</Filename><XPos>0</XPos><YPos>217</YPos><SelStart>5651</SelStart><SelEnd>5651</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_it_user.c</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>2550</SelStart><SelEnd>2550</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_main.c</Filename><XPos>0</XPos><YPos>51</YPos><SelStart>3275</SelStart><SelEnd>3275</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\tasks.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>497</SelStart><SelEnd>497</SelEnd></Tab><ActiveTab>3</ActiveTab></Pane><Sizes><Pane><X>368383</X><Y>1000000</Y></Pane><Pane><X>631616</X><Y>1000000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00781df8><key>iaridepm.enu1</key></Toolbar-00781df8></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>824</Bottom><Right>329</Right><x>-2</x><y>-2</y><xscreen>151</xscreen><yscreen>91</yscreen><sizeHorzCX>78646</sizeHorzCX><sizeHorzCY>81395</sizeHorzCY><sizeVertCX>172396</sizeVertCX><sizeVertCY>738819</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>249</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>251</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>224508</sizeHorzCY><sizeVertCX>78646</sizeVertCX><sizeVertCY>81395</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

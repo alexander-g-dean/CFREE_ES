@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>LCDDemo/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>190</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>886</ColumnWidth1><ColumnWidth2>796</ColumnWidth2><ColumnWidth3>51</ColumnWidth3></Build>
+      <Find-in-Files>
+        <ColumnWidth0>376</ColumnWidth0>
+        <ColumnWidth1>53</ColumnWidth1>
+        <ColumnWidth2>645</ColumnWidth2>
+      </Find-in-Files>
+      <TerminalIO/>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-30093-18216</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>LCDDemo</ExpandedNode><ExpandedNode>LCDDemo/Glyph</ExpandedNode><ExpandedNode>LCDDemo/Glyph/Drivers</ExpandedNode><ExpandedNode>LCDDemo/Output</ExpandedNode><ExpandedNode>LCDDemo/Output/LCDDemo.d87</ExpandedNode><ExpandedNode>LCDDemo/Output/LCDDemo.d87/Output</ExpandedNode><ExpandedNode>LCDDemo/applilet_src</ExpandedNode><ExpandedNode>LCDDemo/applilet_src/r_main.c</ExpandedNode><ExpandedNode>LCDDemo/user_src</ExpandedNode><ExpandedNode>LCDDemo/user_src/lcd.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16062-20731</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-6469-17618</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Glyph\glyph_cfg.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1614</SelStart><SelEnd>1614</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\RDKRL78_spi.c</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>1449</SelStart><SelEnd>1449</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_serial.c</Filename><XPos>0</XPos><YPos>51</YPos><SelStart>5132</SelStart><SelEnd>5132</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_serial_user.c</Filename><XPos>0</XPos><YPos>93</YPos><SelStart>4889</SelStart><SelEnd>4889</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Glyph\Drivers\ST7579_LCD.c</Filename><XPos>0</XPos><YPos>622</YPos><SelStart>26018</SelStart><SelEnd>26018</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Glyph\Drivers\YRDKRL78_LCD.c</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>3432</SelStart><SelEnd>3432</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Glyph\glyph_register.c</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>4456</SelStart><SelEnd>4456</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Glyph\glyph_api.h</Filename><XPos>0</XPos><YPos>216</YPos><SelStart>9601</SelStart><SelEnd>9601</SelEnd></Tab><ActiveTab>7</ActiveTab></Pane><ActivePane>0</ActivePane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\lcd.c</Filename><XPos>0</XPos><YPos>158</YPos><SelStart>3961</SelStart><SelEnd>3961</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Glyph\glyph.c</Filename><XPos>0</XPos><YPos>41</YPos><SelStart>4277</SelStart><SelEnd>4277</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_include\lcd.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>483</SelStart><SelEnd>483</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><ActiveTab>3</ActiveTab></Pane><Sizes><Pane><X>430581</X><Y>1000000</Y></Pane><Pane><X>569418</X><Y>1000000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-02a4f7b8><key>iaridepm.enu1</key></Toolbar-02a4f7b8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>914</Bottom><Right>281</Right><x>-2</x><y>-2</y><xscreen>85</xscreen><yscreen>83</yscreen><sizeHorzCX>44271</sizeHorzCX><sizeHorzCY>74240</sizeHorzCY><sizeVertCX>147396</sizeVertCX><sizeVertCY>819320</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>159</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>161</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>144007</sizeHorzCY><sizeVertCX>44271</sizeVertCX><sizeVertCY>74240</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

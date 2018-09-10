@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<link href="RL78%20Callgraph%20Generator_files/stylesheet.css" rel="stylesheet">
+<title>RL78 Callgraph Generator</title>
+</head>
+<body>
+<p>While working on the optimization project in ECE461/561, I found it 
+helpful to look at the linker map to see which functions are affected by
+ the runtime of other functions. </p>
+<p>A call graph is especially useful in combination with profiling 
+tools. For example, you may know that __iar_Quad is being called a lot, 
+but you can't find it anywhere in your own code. If you check for it in 
+your call graph, you will see it is used by trig functions. You can be 
+confident that its run-time effects on your application will be reduced 
+if you use less trig functions.</p>
+
+<h2>Adding the generator to your project</h2>
+The following steps only have to be performed once per project.
+<ol>
+<li>Download the <a href="http://www4.ncsu.edu/%7Edcwilso2/ece461/rl78_callgraph/callgraph.zip">callgraph.zip</a> archive and unzip it in sub-directory of your project (ex: $PROJ_DIR$\Scripts)<img src="RL78%20Callgraph%20Generator_files/scripts_dir.png" alt="Screenshot of the scripts directory"></li>
+<li>Make sure some version of Perl is installed on your machine. If you 
+want everything to work as-is, install perl in Cygwin, and have Cygwin 
+installed in C:\cygwin. If you are using a different perl or a different
+ cygwin directory, change the perl invocation in gen_callgraph.bat by 
+editing gen_callgraph.bat in a text editor.</li>
+<li>Make sure your linker is generating a module map in Project 
+Options&gt;Linker&gt;List. Check "Generate linker listing" and "Segment 
+map." Select the "Module map" radio button, as shown. Make sure the File
+ format is set to "Text" and not "HTML." These are the same requirements
+ as using Dr. Dean's profiler script. So if the profiler works for you, 
+you probably don't need to mess with this.<img src="RL78%20Callgraph%20Generator_files/linker_opts.png" alt="Screenshot of the correct linker options"></li>
+</ol>
+<h2>Generating a callgraph</h2>
+The following steps have to be performed whenever you think your 
+callgraph has been changed (i.e. whenever you add or remove function 
+calls in your script). I tried making it automatic by pointing to the 
+batch file in my project's post-build options, but I must have a bug in 
+the batch because it never got the directories correct.
+<ol>
+<li>Running the callGraph.pl script in Perl will print HTML for use with
+ the javascript files in the callgraph folder. If you are on Windows, 
+simply run the gen_callgraph.bat script, and the html file will be 
+created or updated in the callgraph directory.</li>
+</ol>
+<h2>Viewing a callgraph</h2>
+<p>To view your callgraph, open the index.html file in the callgraph 
+directory. Enter a function name in the search bar, and press enter or 
+click "Search." Your callgraph is presented as an SVG on the browser 
+window.</p>
+<img src="RL78%20Callgraph%20Generator_files/callgraph_example.png" alt="Screenshot of the callgraph for Find_Nearest_Waypoint in the ece461 optimization project">
+
+<h2>Other notes</h2>
+<ul>
+<li>Every time the callgraph is updated by the perl script (or running 
+gen_callgraph), you have to refresh the page in your browser. It could 
+be redesigned to asynchronously load the graph information while keeping
+ the html file static. I didn't implement it that way because most web 
+browsers disable the ability to asynchronously load external files from a
+ local machine (due to security reasons), and this way was simpler to 
+easily get going while allowing for offline use.</li>
+<li>I've really only been using this in Chrome, but a quick test shows 
+it's working in IE10 and Firefox 19. IE10 gives a popup asking you if 
+you want to enable scripts. You do.</li>
+<li>If a function reaches a child via multiple paths through another 
+function, you start to see parallel edges on the parent. This is because
+ the query searches for calls by doing a naive scan for parents in the 
+edge list. If you want to remove this, implement a different traversal 
+algorithm in callgraph.js. I sort of like it because more arrows implies
+ higher weight of effect on an ancestor. <img src="RL78%20Callgraph%20Generator_files/multigraph_example.png" alt="Example of a calltree which hits main via many paths"></li>
+<li>I didn't really do extensive testing on this. I checked for the 
+presence of a couple of function calls that looked like they could be 
+troublesome on the map parser, but there are no guarantees. If you think
+ it's missing something, search the linker map to be sure.</li>
+<li>I didn't bother filtering out non-functional symbols. You might see 
+some symbols in the autosuggest bar, which don't actually appear in call
+ graphs. You might even see a symbol or two appear in the graph. I don't
+ know, but it's possible.</li>
+</ul>
+
+
+</body></html>

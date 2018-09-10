@@ -1,0 +1,10 @@
+#search {
+	position: fixed;
+	left: 5px;
+	top: 5px;
+}
+
+ellipse.highlighted {
+	fill: #ffbfbf;
+	stroke: #ff0000;
+}

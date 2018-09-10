@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3924005854</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\r_intc.c</file>
+      <file>$PROJ_DIR$\r_cgc.c</file>
+      <file>$PROJ_DIR$\r_cgc_user.c</file>
+      <file>$PROJ_DIR$\r_intc_user.c</file>
+      <file>$PROJ_DIR$\r_main.c</file>
+      <file>$PROJ_DIR$\r_port.c</file>
+      <file>$PROJ_DIR$\r_port_user.c</file>
+      <file>$PROJ_DIR$\r_systeminit.c</file>
+      <file>$PROJ_DIR$\r_cg_macrodriver.h</file>
+      <file>$PROJ_DIR$\r_cg_userdefine.h</file>
+      <file>$PROJ_DIR$\intrinsics.h</file>
+      <file>$PROJ_DIR$\ior5f100le_ext.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkr5f100le.xcl</file>
+      <file>$PROJ_DIR$\ior5f100le.h</file>
+      <file>$PROJ_DIR$\r_cg_port.h</file>
+      <file>$PROJ_DIR$\r_cg_intc.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlrl78nn1n.r87</file>
+      <file>$PROJ_DIR$\Debug\Exe\LowPowerDemo.d87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cgc.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_intc_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_intc.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cgc_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_main.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_port.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_port_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_systeminit.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cgc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cgc_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_intc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_intc_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_port.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_port_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_systeminit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LowPowerDemo.pbd</file>
+      <file>$PROJ_DIR$\r_cg_cgc.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\r_intc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 13 11 10 15 9</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 8 13 11 10 15 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\r_cgc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 13 11 10 35 9</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 8 13 11 10 35 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\r_cgc_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 13 11 10 35 9</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 8 13 11 10 35 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\r_intc_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 13 11 10 15 9</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 8 13 11 10 15 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\r_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 13 11 10 35 14 15 9</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 8 13 11 10 35 14 15 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\r_port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 13 11 10 14 9</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 8 13 11 10 14 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\r_port_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 13 11 10 14 9</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 8 13 11 10 14 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\r_systeminit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 13 11 10 35 14 15 9</file>
+        </tool>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 8 13 11 10 35 14 15 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\LowPowerDemo.d87</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 12 18 21 20 19 22 23 24 25 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\LowPowerDemo.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 26 27 28 29 30 31 32 33</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

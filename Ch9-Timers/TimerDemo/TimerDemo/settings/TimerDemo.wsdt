@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>TimerDemo/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>226</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1395</ColumnWidth1><ColumnWidth2>372</ColumnWidth2><ColumnWidth3>93</ColumnWidth3></Build><TerminalIO/></Static>
+    <Windows>
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-19088-25219</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>TimerDemo</ExpandedNode><ExpandedNode>TimerDemo/Glyph</ExpandedNode><ExpandedNode>TimerDemo/Glyph/Drivers</ExpandedNode><ExpandedNode>TimerDemo/Glyph/Fonts</ExpandedNode><ExpandedNode>TimerDemo/Output</ExpandedNode><ExpandedNode>TimerDemo/applilet_src</ExpandedNode><ExpandedNode>TimerDemo/user_src</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-30437-30190</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_main.c</Filename><XPos>0</XPos><YPos>64</YPos><SelStart>4356</SelStart><SelEnd>4356</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\lcd.c</Filename><XPos>0</XPos><YPos>128</YPos><SelStart>2836</SelStart><SelEnd>2836</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_userdefine.h</Filename><XPos>0</XPos><YPos>10</YPos><SelStart>2780</SelStart><SelEnd>2780</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_timer_user.c</Filename><XPos>0</XPos><YPos>30</YPos><SelStart>3381</SelStart><SelEnd>3381</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\user_src\RDKRL78_spi.c</Filename><XPos>0</XPos><YPos>34</YPos><SelStart>1386</SelStart><SelEnd>1386</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applilet3_src\r_cg_timer.c</Filename><XPos>0</XPos><YPos>69</YPos><SelStart>1884</SelStart><SelEnd>1884</SelEnd></Tab><ActiveTab>5</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0379fe00><key>iaridepm.enu1</key></Toolbar-0379fe00></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>660</Bottom><Right>317</Right><x>-2</x><y>-2</y><xscreen>250</xscreen><yscreen>186</yscreen><sizeHorzCX>264831</sizeHorzCX><sizeHorzCY>189602</sizeHorzCY><sizeVertCX>337924</sizeVertCX><sizeVertCY>674822</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>276</Bottom><Right>946</Right><x>-2</x><y>-2</y><xscreen>948</xscreen><yscreen>278</yscreen><sizeHorzCX>1004237</sizeHorzCX><sizeHorzCY>283384</sizeHorzCY><sizeVertCX>264831</sizeVertCX><sizeVertCY>189602</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

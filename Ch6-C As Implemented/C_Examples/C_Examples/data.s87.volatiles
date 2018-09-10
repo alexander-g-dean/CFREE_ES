@@ -1,0 +1,655 @@
+///////////////////////////////////////////////////////////////////////////////
+//                                                                            /
+// IAR C/C++ Compiler V1.10.1.50009 for RL78            08/Aug/2011  14:31:34 /
+// Copyright 2011 IAR Systems AB.                                             /
+//                                                                            /
+//    Core         =  rl78_1                                                  /
+//    Code model   =  Near                                                    /
+//    Data model   =  Near                                                    /
+//                 =                                                          /
+//    Source file  =  C:\Users\Alex\Documents\Teaching\Book Writin'\RL78      /
+//                    Book\Chapters\C As She Is Spoke\C_Examples\user_src\dat /
+//                    a.c                                                     /
+//    Command line =  "C:\Users\Alex\Documents\Teaching\Book Writin'\RL78     /
+//                    Book\Chapters\C As She Is Spoke\C_Examples\user_src\dat /
+//                    a.c" --core rl78_1 --code_model near --data_model near  /
+//                    --near_const_location rom0 -o                           /
+//                    "C:\Users\Alex\Documents\Teaching\Book Writin'\RL78     /
+//                    Book\Chapters\C As She Is Spoke\C_Examples\Debug\Obj\"  /
+//                    --dlib_config "C:\Program Files (x86)\IAR               /
+//                    Systems\Embedded Workbench 6.0\rl78\LIB\dlrl78nn1n.h"   /
+//                    -e -Oh --debug -lA "C:\Users\Alex\Documents\Teaching\Bo /
+//                    ok Writin'\RL78 Book\Chapters\C As She Is               /
+//                    Spoke\C_Examples\Debug\List\" -I                        /
+//                    "C:\Users\Alex\Documents\Teaching\Book Writin'\RL78     /
+//                    Book\Chapters\C As She Is Spoke\C_Examples\user_include /
+//                    \"                                                      /
+//    List file    =  C:\Users\Alex\Documents\Teaching\Book Writin'\RL78      /
+//                    Book\Chapters\C As She Is Spoke\C_Examples\Debug\List\d /
+//                    ata.s87                                                 /
+//                                                                            /
+//                                                                            /
+///////////////////////////////////////////////////////////////////////////////
+
+        NAME data
+
+        RTMODEL "__SystemLibrary", "DLib"
+        RTMODEL "__code_model", "near"
+        RTMODEL "__core", "rl78_1"
+        RTMODEL "__data_model", "near"
+        RTMODEL "__rt_version", "1"
+
+        RSEG CSTACK:DATA:NOROOT(1)
+
+        EXTERN ?CLRL78_V1_0_L00
+        EXTERN ?I_MUL_L02
+        EXTERN __INIT_NEAR_I
+        EXTERN __INIT_NEAR_Z
+
+        PUBLIC A_static
+        PUBLIC arrays
+        FUNCTION arrays,0203H
+        ARGFRAME CSTACK, 0, STACK
+        LOCFRAME CSTACK, 6, STACK
+        PUBLIC buff1
+        PUBLIC buff2
+        PUBLIC buff3
+        PUBLIC control_structures
+        FUNCTION control_structures,0203H
+        ARGFRAME CSTACK, 0, STACK
+        LOCFRAME CSTACK, 8, STACK
+        PUBLIC static_auto_local
+        FUNCTION static_auto_local,0201H
+        ARGFRAME CSTACK, 0, STACK
+        LOCFRAME CSTACK, 2, STACK
+        
+        CFI Names cfiNames0
+        CFI StackFrame CFA ?SP20 DATA
+        CFI Resource A:8, X:8, B:8, C:8, D:8, E:8, H:8, L:8, CS_REG:4, ES_REG:4
+        CFI Resource ?SP20:20
+        CFI VirtualResource ?RET:20
+        CFI Resource MACRH:16, MACRL:16, W0:8, W1:8, W2:8, W3:8, W4:8, W5:8
+        CFI Resource W6:8, W7:8, W8:8, W9:8, W10:8, W11:8, W12:8, W13:8, W14:8
+        CFI Resource W15:8, W16:8, W17:8, W18:8, W19:8, W20:8, W21:8, W22:8
+        CFI Resource W23:8, W24:8, W25:8, W26:8, W27:8, W28:8, W29:8, W30:8
+        CFI Resource W31:8, W32:8, W33:8, W34:8, W35:8, W36:8, W37:8, W38:8
+        CFI Resource W39:8, W40:8, W41:8, W42:8, W43:8, W44:8, W45:8, W46:8
+        CFI Resource W47:8, W48:8, W49:8, W50:8, W51:8, W52:8, W53:8, W54:8
+        CFI Resource W55:8, W56:8, W57:8, W58:8, W59:8, W60:8, W61:8, W62:8
+        CFI Resource W63:8, W64:8, W65:8, W66:8, W67:8, W68:8, W69:8, W70:8
+        CFI Resource W71:8, W72:8, W73:8, W74:8, W75:8, W76:8, W77:8, W78:8
+        CFI Resource W79:8, W80:8, W81:8, W82:8, W83:8, W84:8, W85:8, W86:8
+        CFI Resource W87:8, W88:8, W89:8, W90:8, W91:8, W92:8, W93:8, W94:8
+        CFI Resource W95:8, W96:8, W97:8, W98:8, W99:8, W100:8, W101:8, W102:8
+        CFI Resource W103:8, W104:8, W105:8, W106:8, W107:8, W108:8, W109:8
+        CFI Resource W110:8, W111:8, W112:8, W113:8, W114:8, W115:8, W116:8
+        CFI Resource W117:8, W118:8, W119:8, W120:8, W121:8, W122:8, W123:8
+        CFI Resource W124:8, W125:8, W126:8, W127:8, SP:16
+        CFI EndNames cfiNames0
+        
+        CFI Common cfiCommon0 Using cfiNames0
+        CFI CodeAlign 1
+        CFI DataAlign 1
+        CFI ReturnAddress ?RET CODE
+        CFI CFA ?SP20+4
+        CFI A Undefined
+        CFI X Undefined
+        CFI B SameValue
+        CFI C SameValue
+        CFI D SameValue
+        CFI E SameValue
+        CFI H Undefined
+        CFI L Undefined
+        CFI CS_REG Undefined
+        CFI ES_REG Undefined
+        CFI ?RET Frame(CFA, -4)
+        CFI MACRH Undefined
+        CFI MACRL Undefined
+        CFI W0 SameValue
+        CFI W1 SameValue
+        CFI W2 SameValue
+        CFI W3 SameValue
+        CFI W4 SameValue
+        CFI W5 SameValue
+        CFI W6 SameValue
+        CFI W7 SameValue
+        CFI W8 SameValue
+        CFI W9 SameValue
+        CFI W10 SameValue
+        CFI W11 SameValue
+        CFI W12 SameValue
+        CFI W13 SameValue
+        CFI W14 SameValue
+        CFI W15 SameValue
+        CFI W16 SameValue
+        CFI W17 SameValue
+        CFI W18 SameValue
+        CFI W19 SameValue
+        CFI W20 SameValue
+        CFI W21 SameValue
+        CFI W22 SameValue
+        CFI W23 SameValue
+        CFI W24 SameValue
+        CFI W25 SameValue
+        CFI W26 SameValue
+        CFI W27 SameValue
+        CFI W28 SameValue
+        CFI W29 SameValue
+        CFI W30 SameValue
+        CFI W31 SameValue
+        CFI W32 SameValue
+        CFI W33 SameValue
+        CFI W34 SameValue
+        CFI W35 SameValue
+        CFI W36 SameValue
+        CFI W37 SameValue
+        CFI W38 SameValue
+        CFI W39 SameValue
+        CFI W40 SameValue
+        CFI W41 SameValue
+        CFI W42 SameValue
+        CFI W43 SameValue
+        CFI W44 SameValue
+        CFI W45 SameValue
+        CFI W46 SameValue
+        CFI W47 SameValue
+        CFI W48 SameValue
+        CFI W49 SameValue
+        CFI W50 SameValue
+        CFI W51 SameValue
+        CFI W52 SameValue
+        CFI W53 SameValue
+        CFI W54 SameValue
+        CFI W55 SameValue
+        CFI W56 SameValue
+        CFI W57 SameValue
+        CFI W58 SameValue
+        CFI W59 SameValue
+        CFI W60 SameValue
+        CFI W61 SameValue
+        CFI W62 SameValue
+        CFI W63 SameValue
+        CFI W64 SameValue
+        CFI W65 SameValue
+        CFI W66 SameValue
+        CFI W67 SameValue
+        CFI W68 SameValue
+        CFI W69 SameValue
+        CFI W70 SameValue
+        CFI W71 SameValue
+        CFI W72 SameValue
+        CFI W73 SameValue
+        CFI W74 SameValue
+        CFI W75 SameValue
+        CFI W76 SameValue
+        CFI W77 SameValue
+        CFI W78 SameValue
+        CFI W79 SameValue
+        CFI W80 SameValue
+        CFI W81 SameValue
+        CFI W82 SameValue
+        CFI W83 SameValue
+        CFI W84 SameValue
+        CFI W85 SameValue
+        CFI W86 SameValue
+        CFI W87 SameValue
+        CFI W88 SameValue
+        CFI W89 SameValue
+        CFI W90 SameValue
+        CFI W91 SameValue
+        CFI W92 SameValue
+        CFI W93 SameValue
+        CFI W94 SameValue
+        CFI W95 SameValue
+        CFI W96 SameValue
+        CFI W97 SameValue
+        CFI W98 SameValue
+        CFI W99 SameValue
+        CFI W100 SameValue
+        CFI W101 SameValue
+        CFI W102 SameValue
+        CFI W103 SameValue
+        CFI W104 SameValue
+        CFI W105 SameValue
+        CFI W106 SameValue
+        CFI W107 SameValue
+        CFI W108 SameValue
+        CFI W109 SameValue
+        CFI W110 SameValue
+        CFI W111 SameValue
+        CFI W112 SameValue
+        CFI W113 SameValue
+        CFI W114 SameValue
+        CFI W115 SameValue
+        CFI W116 SameValue
+        CFI W117 SameValue
+        CFI W118 SameValue
+        CFI W119 SameValue
+        CFI W120 SameValue
+        CFI W121 SameValue
+        CFI W122 SameValue
+        CFI W123 SameValue
+        CFI W124 SameValue
+        CFI W125 SameValue
+        CFI W126 SameValue
+        CFI W127 SameValue
+        CFI SP SameValue
+        CFI EndCommon cfiCommon0
+        
+        
+        CFI Common cfiCommon1 Using cfiNames0
+        CFI CodeAlign 1
+        CFI DataAlign 1
+        CFI ReturnAddress ?RET CODE
+        CFI CFA ?SP20+4
+        CFI A Undefined
+        CFI X Undefined
+        CFI B Undefined
+        CFI C Undefined
+        CFI D SameValue
+        CFI E SameValue
+        CFI H Undefined
+        CFI L Undefined
+        CFI CS_REG Undefined
+        CFI ES_REG Undefined
+        CFI ?RET Frame(CFA, -4)
+        CFI MACRH Undefined
+        CFI MACRL Undefined
+        CFI W0 SameValue
+        CFI W1 SameValue
+        CFI W2 SameValue
+        CFI W3 SameValue
+        CFI W4 SameValue
+        CFI W5 SameValue
+        CFI W6 SameValue
+        CFI W7 SameValue
+        CFI W8 SameValue
+        CFI W9 SameValue
+        CFI W10 SameValue
+        CFI W11 SameValue
+        CFI W12 SameValue
+        CFI W13 SameValue
+        CFI W14 SameValue
+        CFI W15 SameValue
+        CFI W16 SameValue
+        CFI W17 SameValue
+        CFI W18 SameValue
+        CFI W19 SameValue
+        CFI W20 SameValue
+        CFI W21 SameValue
+        CFI W22 SameValue
+        CFI W23 SameValue
+        CFI W24 SameValue
+        CFI W25 SameValue
+        CFI W26 SameValue
+        CFI W27 SameValue
+        CFI W28 SameValue
+        CFI W29 SameValue
+        CFI W30 SameValue
+        CFI W31 SameValue
+        CFI W32 SameValue
+        CFI W33 SameValue
+        CFI W34 SameValue
+        CFI W35 SameValue
+        CFI W36 SameValue
+        CFI W37 SameValue
+        CFI W38 SameValue
+        CFI W39 SameValue
+        CFI W40 SameValue
+        CFI W41 SameValue
+        CFI W42 SameValue
+        CFI W43 SameValue
+        CFI W44 SameValue
+        CFI W45 SameValue
+        CFI W46 SameValue
+        CFI W47 SameValue
+        CFI W48 SameValue
+        CFI W49 SameValue
+        CFI W50 SameValue
+        CFI W51 SameValue
+        CFI W52 SameValue
+        CFI W53 SameValue
+        CFI W54 SameValue
+        CFI W55 SameValue
+        CFI W56 SameValue
+        CFI W57 SameValue
+        CFI W58 SameValue
+        CFI W59 SameValue
+        CFI W60 SameValue
+        CFI W61 SameValue
+        CFI W62 SameValue
+        CFI W63 SameValue
+        CFI W64 SameValue
+        CFI W65 SameValue
+        CFI W66 SameValue
+        CFI W67 SameValue
+        CFI W68 SameValue
+        CFI W69 SameValue
+        CFI W70 SameValue
+        CFI W71 SameValue
+        CFI W72 SameValue
+        CFI W73 SameValue
+        CFI W74 SameValue
+        CFI W75 SameValue
+        CFI W76 SameValue
+        CFI W77 SameValue
+        CFI W78 SameValue
+        CFI W79 SameValue
+        CFI W80 SameValue
+        CFI W81 SameValue
+        CFI W82 SameValue
+        CFI W83 SameValue
+        CFI W84 SameValue
+        CFI W85 SameValue
+        CFI W86 SameValue
+        CFI W87 SameValue
+        CFI W88 SameValue
+        CFI W89 SameValue
+        CFI W90 SameValue
+        CFI W91 SameValue
+        CFI W92 SameValue
+        CFI W93 SameValue
+        CFI W94 SameValue
+        CFI W95 SameValue
+        CFI W96 SameValue
+        CFI W97 SameValue
+        CFI W98 SameValue
+        CFI W99 SameValue
+        CFI W100 SameValue
+        CFI W101 SameValue
+        CFI W102 SameValue
+        CFI W103 SameValue
+        CFI W104 SameValue
+        CFI W105 SameValue
+        CFI W106 SameValue
+        CFI W107 SameValue
+        CFI W108 SameValue
+        CFI W109 SameValue
+        CFI W110 SameValue
+        CFI W111 SameValue
+        CFI W112 SameValue
+        CFI W113 SameValue
+        CFI W114 SameValue
+        CFI W115 SameValue
+        CFI W116 SameValue
+        CFI W117 SameValue
+        CFI W118 SameValue
+        CFI W119 SameValue
+        CFI W120 SameValue
+        CFI W121 SameValue
+        CFI W122 SameValue
+        CFI W123 SameValue
+        CFI W124 SameValue
+        CFI W125 SameValue
+        CFI W126 SameValue
+        CFI W127 SameValue
+        CFI SP SameValue
+        CFI EndCommon cfiCommon1
+        
+
+        RSEG NEAR_Z:DATA:SORT:NOROOT(1)
+// C:\Users\Alex\Documents\Teaching\Book Writin'\RL78 Book\Chapters\C As She Is Spoke\C_Examples\user_src\data.c
+//    1 volatile int A_static;
+A_static:
+        DS 2
+        REQUIRE __INIT_NEAR_Z
+//    2 
+//    3 typedef struct  {
+//    4   int field1;
+//    5   char field2;
+//    6 }mystruct;
+//    7 
+
+        RSEG CODE:CODE:NOROOT(0)
+//    8 void static_auto_local() {
+static_auto_local:
+        CFI Block cfiBlock0 Using cfiCommon0
+        CFI Function static_auto_local
+        PUSH      AX
+        CFI CFA ?SP20+6
+//    9   volatile int B_auto;
+//   10   volatile static int C_static_local=5;
+//   11 
+//   12   B_auto = C_static_local + A_static;
+        MOVW      AX, N:??C_static_local
+        ADDW      AX, N:A_static
+        MOVW      [SP], AX
+//   13 }
+        ADDW      SP, #0x2
+        CFI CFA ?SP20+4
+        RET       
+        CFI EndBlock cfiBlock0
+        ; * Stack frame (at entry) *
+        ; Param size: 0
+        ; Auto size: 2
+        REQUIRE ?CLRL78_V1_0_L00
+
+        RSEG NEAR_I:DATA:SORT:NOROOT(1)
+??C_static_local:
+        DS 2
+        REQUIRE `?<Initializer for C_static_local>`
+        REQUIRE __INIT_NEAR_I
+//   14 
+
+        RSEG CODE:CODE:NOROOT(0)
+//   15 int control_structures(void){
+control_structures:
+        CFI Block cfiBlock1 Using cfiCommon0
+        CFI Function control_structures
+        PUSH      DE
+        CFI E Frame(CFA, -6)
+        CFI D Frame(CFA, -5)
+        CFI CFA ?SP20+6
+        SUBW      SP, #0x6
+        CFI CFA ?SP20+12
+//   16   unsigned int i=0;
+//   17   volatile unsigned int x=0, y=0, z=0;
+        CLRW      AX
+        MOVW      [SP], AX
+        MOVW      [SP+0x02], AX
+        MOVW      [SP+0x04], AX
+//   18     
+//   19   if (x){
+        MOVW      AX, [SP]
+        CMPW      AX, #0x0
+        MOVW      AX, [SP+0x02]
+        BZ        ??arrays_0
+        ; * Stack frame (at entry) *
+        ; Param size: 0
+        ; Auto size: 6
+//   20      y++;
+        INCW      AX
+        BR        S:??arrays_1
+//   21   } else {
+//   22     y--;
+??arrays_0:
+        DECW      AX
+??arrays_1:
+        MOVW      [SP+0x02], AX
+//   23   }
+//   24   
+//   25   switch (x) {
+        MOVW      AX, [SP]
+        SUBW      AX, #0x1
+        BZ        ??arrays_2
+        SUBW      AX, #0x1E
+        BZ        ??arrays_3
+        BR        S:??arrays_4
+//   26   case 1:
+//   27     y += 3;
+??arrays_2:
+        MOVW      AX, [SP+0x02]
+        ADDW      AX, #0x3
+??control_structures_0:
+        MOVW      [SP+0x02], AX
+//   28     break;
+        BR        S:??arrays_5
+//   29   case 31:
+//   30     y -= 5;
+??arrays_3:
+        MOVW      AX, [SP+0x02]
+        ADDW      AX, #0xFFFB
+        BR        S:??control_structures_0
+//   31     break;
+//   32   default:
+//   33     y--;
+??arrays_4:
+        MOVW      AX, [SP+0x02]
+        DECW      AX
+        BR        S:??control_structures_0
+//   34     break;
+//   35   }
+//   36 
+//   37   while (x<10) {
+//   38     x = x + 1;
+??control_structures_1:
+        MOVW      AX, [SP]
+        INCW      AX
+        MOVW      [SP], AX
+//   39   }
+??arrays_5:
+        MOVW      AX, [SP]
+        CMPW      AX, #0xA
+        BC        ??control_structures_1
+//   40   
+//   41   for (i = 0; i < 10; i++){
+        CLRW      AX
+        MOVW      HL, AX
+//   42     x += i;
+??control_structures_2:
+        MOVW      AX, [SP]
+        ADDW      AX, HL
+        MOVW      [SP], AX
+//   43   }
+        MOVW      AX, HL
+        INCW      AX
+        CMPW      AX, #0xA
+        MOVW      HL, AX
+        BC        ??control_structures_2
+//   44   
+//   45   do {
+//   46     x += 2;
+??control_structures_3:
+        MOVW      AX, [SP]
+        INCW      AX
+        INCW      AX
+        MOVW      [SP], AX
+//   47   } while (x < 20);
+        MOVW      AX, [SP]
+        CMPW      AX, #0x14
+        BC        ??control_structures_3
+//   48   
+//   49   return x+i;
+        MOVW      AX, [SP]
+        ADDW      SP, #0x6
+        CFI CFA ?SP20+6
+        ADDW      AX, HL
+        POP       DE
+        CFI E SameValue
+        CFI D SameValue
+        CFI CFA ?SP20+4
+        RET       
+        CFI EndBlock cfiBlock1
+        REQUIRE ?CLRL78_V1_0_L00
+//   50 }
+//   51 
+
+        RSEG NEAR_Z:DATA:SORT:NOROOT(1)
+//   52 unsigned char buff1[3];
+buff1:
+        DS 4
+        REQUIRE __INIT_NEAR_Z
+
+        RSEG NEAR_Z:DATA:SORT:NOROOT(1)
+//   53 unsigned char buff2[3]; 
+buff2:
+        DS 4
+        REQUIRE __INIT_NEAR_Z
+
+        RSEG NEAR_Z:DATA:SORT:NOROOT(1)
+//   54 unsigned int buff3[5][7];
+buff3:
+        DS 70
+        REQUIRE __INIT_NEAR_Z
+//   55 
+
+        RSEG CODE:CODE:NOROOT(0)
+//   56 void arrays(unsigned char n, unsigned char j) {
+arrays:
+        CFI Block cfiBlock2 Using cfiCommon1
+        CFI Function arrays
+        PUSH      BC
+        CFI C Frame(CFA, -6)
+        CFI B Frame(CFA, -5)
+        CFI CFA ?SP20+6
+        PUSH      DE
+        CFI E Frame(CFA, -8)
+        CFI D Frame(CFA, -7)
+        CFI CFA ?SP20+8
+        MOV       C, A
+        PUSH      AX
+        CFI CFA ?SP20+10
+        MOV       A, B
+        MOV       E, A
+//   57   volatile unsigned int i;
+//   58   
+//   59   i = buff2[0] + buff2[n];
+        MOV       A, (buff2 & 0xFFFF)[C]
+        MOV       L, A
+        MOV       A, N:buff2
+        MOV       H, #0x0
+        MOV       X, A
+        CLRB      A
+        ADDW      AX, HL
+//   60   i += buff3[n][j];
+        MOV       D, #0x0
+        MOVW      [SP], AX
+        MOVW      AX, DE
+        ADDW      AX, AX
+        MOVW      DE, AX
+        MOV       A, C
+        MOV       X, A
+        CLRB      A
+        MOVW      BC, #0xE
+        ; * Stack frame (at entry) *
+        ; Param size: 0
+        ; Auto size: 2
+        CALL      N:?I_MUL_L02
+        ADDW      AX, #buff3
+        ADDW      AX, DE
+        MOVW      HL, AX
+        MOVW      AX, [HL]
+        MOVW      HL, AX
+        MOVW      AX, [SP]
+        ADDW      AX, HL
+        MOVW      [SP], AX
+//   61 }
+        ADDW      SP, #0x2
+        CFI CFA ?SP20+8
+        POP       DE
+        CFI E SameValue
+        CFI D SameValue
+        CFI CFA ?SP20+6
+        POP       BC
+        CFI CFA ?SP20+4
+        RET       
+        CFI EndBlock cfiBlock2
+        REQUIRE ?CLRL78_V1_0_L00
+
+        RSEG NEAR_ID:CONST:SORT:NOROOT(1)
+`?<Initializer for C_static_local>`:
+        DW 5
+
+        END
+// 
+// 170 bytes in segment CODE
+//   2 bytes in segment NEAR_I
+//   2 bytes in segment NEAR_ID
+//  80 bytes in segment NEAR_Z
+// 
+// 170 bytes of CODE  memory
+//   2 bytes of CONST memory
+//  82 bytes of DATA  memory
+//
+//Errors: none
+//Warnings: 1
